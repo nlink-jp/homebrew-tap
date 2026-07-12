@@ -14,8 +14,9 @@ cask "csv-editor" do
   app "csv-editor.app"
 
   zap trash: [
-    "~/Library/Application Support/csv-editor",
+    "~/Library/Caches/com.wails.csv-editor",
     "~/Library/Preferences/com.wails.csv-editor.plist",
     "~/Library/Saved Application State/com.wails.csv-editor.savedState",
+    "~/Library/WebKit/com.wails.csv-editor",
   ]
 end
