@@ -7,7 +7,7 @@ class GemSearch < Formula
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
-  # Building from source would strip the signature, so the tap ships the
+  # Building from source would strip the signature, so the tap installs the
   # notarized release asset as-is (arm64 only; darwin is Apple Silicon only).
   depends_on arch: :arm64
   depends_on :macos
@@ -17,6 +17,6 @@ class GemSearch < Formula
   end
 
   test do
-    assert_match "gem-search", shell_output("#{bin}/gem-search --version")
+    assert_match version.to_s, shell_output("#{bin}/gem-search --version")
   end
 end
