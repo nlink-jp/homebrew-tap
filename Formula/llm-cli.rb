@@ -1,5 +1,5 @@
 class LlmCli < Formula
-  desc "OpenAI-compatible command-line client for local and cloud LLMs"
+  desc "CLI client for local LLMs via an OpenAI-compatible API"
   homepage "https://github.com/nlink-jp/llm-cli"
   url "https://github.com/nlink-jp/llm-cli/releases/download/v0.2.0/llm-cli-v0.2.0-darwin-arm64.zip"
   version "0.2.0"
@@ -7,7 +7,7 @@ class LlmCli < Formula
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
-  # Building from source would strip the signature, so the tap ships the
+  # Building from source would strip the signature, so the tap installs the
   # notarized release asset as-is (arm64 only; darwin is Apple Silicon only).
   depends_on arch: :arm64
   depends_on :macos
@@ -17,6 +17,6 @@ class LlmCli < Formula
   end
 
   test do
-    assert_match "llm-cli", shell_output("#{bin}/llm-cli --version")
+    assert_match version.to_s, shell_output("#{bin}/llm-cli --version")
   end
 end
