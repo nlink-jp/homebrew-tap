@@ -1,5 +1,5 @@
 class Jviz < Formula
-  desc "Visualize JSON data in the browser from the command line"
+  desc "Visualize JSON data in the browser from your terminal"
   homepage "https://github.com/nlink-jp/jviz"
   url "https://github.com/nlink-jp/jviz/releases/download/v1.2.0/jviz-v1.2.0-darwin-arm64.zip"
   version "1.2.0"
