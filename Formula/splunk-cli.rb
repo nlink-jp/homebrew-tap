@@ -1,5 +1,5 @@
 class SplunkCli < Formula
-  desc "Splunk CLI for running SPL queries and managing jobs"
+  desc "Run SPL queries and manage search jobs on Splunk"
   homepage "https://github.com/nlink-jp/splunk-cli"
   url "https://github.com/nlink-jp/splunk-cli/releases/download/v2.2.0/splunk-cli-v2.2.0-darwin-arm64.zip"
   version "2.2.0"
