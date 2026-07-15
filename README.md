@@ -15,13 +15,15 @@ brew install nlink-jp/tap/<name>          # CLI tools (formulae)
 brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 ```
 
-## Formulae (CLI) — 42
+## Formulae (CLI) — 45
 
 | Formula | Description |
 |---------|-------------|
+| `abuse-lookup` | Check IP address reputation against the AbuseIPDB API |
 | `active-lens` | Content-free activity tracker recording when you work, not what |
 | `ask-gemini-mcp` | MCP server exposing ask_gemini(prompt) backed by Vertex AI Gemini |
 | `ask-llm-mcp` | MCP server exposing ask_llm(prompt) for OpenAI-compatible endpoints |
+| `asn-lookup` | Local IP-to-ASN and ASN-to-prefix lookups from the IPinfo Lite database |
 | `claude-usage-lens` | Token usage and cost analyzer for Claude Code and Cowork logs |
 | `csv-to-json` | Fast CSV-to-JSON converter for shell pipelines |
 | `data-analyzer` | Large-scale JSON/JSONL analysis CLI using local LLMs |
@@ -58,11 +60,12 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `splunk-cli` | Run SPL queries and manage search jobs on Splunk |
 | `stail` | Read-only Slack CLI that streams and exports messages like tail -f |
 | `swrite` | Post messages and files to Slack from your terminal |
+| `tor-exit-lookup` | Check whether an IP address is a Tor Exit node (offline) |
 | `video-studio-mcp` | MCP server compositing page images and audio into a narrated MP4 |
 | `voice-studio-mcp` | Multi-speaker Japanese speech-synthesis MCP server |
 | `webhook-relay` | Authenticated webhook receiver that writes payloads to GCS |
 
-## Casks (GUI) — 7
+## Casks (GUI) — 8
 
 | Cask | Description |
 |------|-------------|
@@ -70,6 +73,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `claude-usage-lens-gui` | Menu-bar app showing today's Claude usage cost with charts |
 | `csv-editor` | Viewer and editor for CSV and TSV files |
 | `image-forge-gui` | SwiftUI front-end for the image-forge local image generator |
+| `load-spinner` | Menu-bar CPU/GPU load indicator that spins with system load |
 | `mail-analyzer-gui` | Drag-and-drop desktop app for suspicious email analysis |
 | `quick-translate` | Menu-bar translation tool powered by a local LLM |
 | `shell-agent-v2` | Local-first chat and agent tool with interactive data analysis |
