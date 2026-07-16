@@ -15,7 +15,7 @@ brew install nlink-jp/tap/<name>          # CLI tools (formulae)
 brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 ```
 
-## Formulae (CLI) — 45
+## Formulae (CLI) — 46
 
 | Formula | Description |
 |---------|-------------|
@@ -34,6 +34,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `gem-query` | Natural-language data analysis CLI for DuckDB and SQLite via Gemini |
 | `gem-search` | Agentic web search CLI using Vertex AI Grounding |
 | `gem-summary` | Single-call Vertex AI Gemini text summarizer |
+| `icloud-relay-lookup` | Check whether an IP address is an iCloud Private Relay egress IP (offline) |
 | `image-forge` | Local diffusion image-generation engine and model manager |
 | `ir-hub` | Incident-response lifecycle hub as a Slack ChatOps bot |
 | `ir-timeline` | Incident-response timeline recorder with browser UI and SQLite |
