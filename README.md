@@ -15,7 +15,7 @@ brew install nlink-jp/tap/<name>          # CLI tools (formulae)
 brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 ```
 
-## Formulae (CLI) — 46
+## Formulae (CLI) — 47
 
 | Formula | Description |
 |---------|-------------|
@@ -65,6 +65,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `video-studio-mcp` | MCP server compositing page images and audio into a narrated MP4 |
 | `voice-studio-mcp` | Multi-speaker Japanese speech-synthesis MCP server |
 | `webhook-relay` | Authenticated webhook receiver that writes payloads to GCS |
+| `whois-lookup` | Look up domain/IP/ASN registration data via RDAP with WHOIS fallback |
 
 ## Casks (GUI) — 8
 
