@@ -1,6 +1,6 @@
 cask "share-mounter" do
-  version "0.1.0"
-  sha256 "9d95469d12d370039a60dd65bab33a9f069148a10da0ff7454e7f91a58939f4b"
+  version "0.1.1"
+  sha256 "a7d0db3f2018d86e99a4bc4105e865ed253416a05eaa1a7df3139c4e5c344081"
 
   url "https://github.com/nlink-jp/share-mounter/releases/download/v#{version}/share-mounter-v#{version}-darwin-arm64.zip"
   name "share-mounter"
