@@ -15,7 +15,7 @@ brew install nlink-jp/tap/<name>          # CLI tools (formulae)
 brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 ```
 
-## Formulae (CLI) — 49
+## Formulae (CLI) — 50
 
 | Formula | Description |
 |---------|-------------|
@@ -58,6 +58,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `scat` | Send content to Slack and other services from your terminal |
 | `scli` | Terminal Slack client for channels, DMs, search, and unread |
 | `sdate` | Compute timestamps using Splunk-like relative time syntax |
+| `slack-mcp-extender` | Transparent proxy for the official Slack MCP with file-attachment upload tools |
 | `slack-router` | Route Slack slash-commands with a cron-like approach |
 | `splunk-cli` | Run SPL queries and manage search jobs on Splunk |
 | `stail` | Read-only Slack CLI that streams and exports messages like tail -f |
