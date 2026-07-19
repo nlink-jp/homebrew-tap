@@ -15,7 +15,7 @@ brew install nlink-jp/tap/<name>          # CLI tools (formulae)
 brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 ```
 
-## Formulae (CLI) — 47
+## Formulae (CLI) — 49
 
 | Formula | Description |
 |---------|-------------|
@@ -28,6 +28,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `csv-to-json` | Fast CSV-to-JSON converter for shell pipelines |
 | `data-analyzer` | Large-scale JSON/JSONL analysis CLI using local LLMs |
 | `data-toolbox-mcp` | MCP server for DuckDB analysis and sandboxed Python execution |
+| `doh-lookup` | Collect a domain's DNS records over DoH (out-of-band, distinguishable) |
 | `eml-to-jsonl` | EML parser for shell pipelines, emitting headers and body as JSONL |
 | `gem-cli` | Gemini CLI client with multimodal, streaming, and grounding |
 | `gem-image` | Image generation and editing CLI using Vertex AI Gemini |
@@ -62,12 +63,13 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `stail` | Read-only Slack CLI that streams and exports messages like tail -f |
 | `swrite` | Post messages and files to Slack from your terminal |
 | `tor-exit-lookup` | Check whether an IP address is a Tor Exit node (offline) |
+| `urlscan-lookup` | Investigate a suspicious URL via the urlscan.io API (CLI + MCP) |
 | `video-studio-mcp` | MCP server compositing page images and audio into a narrated MP4 |
 | `voice-studio-mcp` | Multi-speaker Japanese speech-synthesis MCP server |
 | `webhook-relay` | Authenticated webhook receiver that writes payloads to GCS |
 | `whois-lookup` | Look up domain/IP/ASN registration data via RDAP with WHOIS fallback |
 
-## Casks (GUI) — 8
+## Casks (GUI) — 10
 
 | Cask | Description |
 |------|-------------|
@@ -75,9 +77,11 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `claude-usage-lens-gui` | Menu-bar app showing today's Claude usage cost with charts |
 | `csv-editor` | Viewer and editor for CSV and TSV files |
 | `image-forge-gui` | SwiftUI front-end for the image-forge local image generator |
+| `instant-translate` | Lightweight menu-bar translator using macOS on-device Translation |
 | `load-spinner` | Menu-bar CPU/GPU load indicator that spins with system load |
 | `mail-analyzer-gui` | Drag-and-drop desktop app for suspicious email analysis |
 | `quick-translate` | Menu-bar translation tool powered by a local LLM |
+| `share-mounter` | Menu-bar app that auto-mounts SMB shares at login, window-free |
 | `shell-agent-v2` | Local-first chat and agent tool with interactive data analysis |
 
 ## Notarization
