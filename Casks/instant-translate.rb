@@ -12,7 +12,7 @@ cask "instant-translate" do
   # The app itself requires macOS 26 (LSMinimumSystemVersion) — the programmatic
   # Translation API isn't there before it. Without this, brew would happily install
   # a bundle the user's Mac can't launch.
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "InstantTranslate.app"
 
