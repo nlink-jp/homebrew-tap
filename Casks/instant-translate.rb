@@ -9,7 +9,10 @@ cask "instant-translate" do
 
   # Developer ID signed + Apple-notarized + stapled .app (Apple Silicon only).
   depends_on arch: :arm64
-  depends_on macos: :big_sur
+  # The app itself requires macOS 26 (LSMinimumSystemVersion) — the programmatic
+  # Translation API isn't there before it. Without this, brew would happily install
+  # a bundle the user's Mac can't launch.
+  depends_on macos: ">= :tahoe"
 
   app "InstantTranslate.app"
 
