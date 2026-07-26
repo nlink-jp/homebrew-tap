@@ -15,7 +15,7 @@ brew install nlink-jp/tap/<name>          # CLI tools (formulae)
 brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 ```
 
-## Formulae (CLI) — 50
+## Formulae (CLI) — 52
 
 | Formula | Description |
 |---------|-------------|
@@ -48,12 +48,14 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `lite-switch` | Natural-language classifier for shell pipelines |
 | `llm-cli` | CLI client for local LLMs via an OpenAI-compatible API |
 | `lookup` | Enrich JSON/JSONL streams by looking up values from tables |
+| `mac-lookup` | Resolves a MAC address or BSSID to its manufacturer, offline |
 | `mail-analyzer-local` | Local-LLM email analyzer via an OpenAI-compatible API |
 | `mail-analyzer` | Suspicious-email analyzer combining rule indicators and Gemini |
 | `mcp-guardian` | Zero-dependency MCP governance proxy |
 | `md-to-slack` | Markdown to Slack Block Kit JSON converter |
 | `mdv` | Secure single-binary Markdown viewer and file browser |
 | `msg-to-jsonl` | Outlook MSG parser for shell pipelines, emitting JSONL |
+| `pcap-analyzer-mcp` | pcap/pcapng analysis via a containerized, version-pinned tshark |
 | `rex` | Extract and merge fields from text with regular expressions |
 | `scat` | Send content to Slack and other services from your terminal |
 | `scli` | Terminal Slack client for channels, DMs, search, and unread |
