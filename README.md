@@ -15,7 +15,7 @@ brew install nlink-jp/tap/<name>          # CLI tools (formulae)
 brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 ```
 
-## Formulae (CLI) — 52
+## Formulae (CLI) — 53
 
 | Formula | Description |
 |---------|-------------|
@@ -63,6 +63,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `slack-mcp-extender` | Transparent proxy for the official Slack MCP with file upload/download extension tools |
 | `slack-router` | Route Slack slash-commands with a cron-like approach |
 | `splunk-cli` | Run SPL queries and manage search jobs on Splunk |
+| `splunk-mcp` | MCP server for Splunk search with exact result counts over the REST API |
 | `stail` | Read-only Slack CLI that streams and exports messages like tail -f |
 | `swrite` | Post messages and files to Slack from your terminal |
 | `tor-exit-lookup` | Check whether an IP address is a Tor Exit node (offline) |
