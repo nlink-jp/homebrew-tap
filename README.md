@@ -15,7 +15,7 @@ brew install nlink-jp/tap/<name>          # CLI tools (formulae)
 brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 ```
 
-## Formulae (CLI) — 53
+## Formulae (CLI) — 54
 
 | Formula | Description |
 |---------|-------------|
@@ -24,6 +24,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `ask-gemini-mcp` | MCP server exposing ask_gemini(prompt) backed by Vertex AI Gemini |
 | `ask-llm-mcp` | MCP server exposing ask_llm(prompt) for OpenAI-compatible endpoints |
 | `asn-lookup` | Local IP-to-ASN and ASN-to-prefix lookups from the IPinfo Lite database |
+| `chrome-pilot-mcp` | Zero-dependency Chrome automation MCP server (CDP direct) |
 | `claude-usage-lens` | Token usage and cost analyzer for Claude Code and Cowork logs |
 | `csv-to-json` | Fast CSV-to-JSON converter for shell pipelines |
 | `data-analyzer` | Large-scale JSON/JSONL analysis CLI using local LLMs |
