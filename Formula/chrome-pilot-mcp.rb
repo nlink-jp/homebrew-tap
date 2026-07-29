@@ -1,9 +1,9 @@
 class ChromePilotMcp < Formula
   desc "Zero-dependency Chrome automation MCP server (CDP direct)"
   homepage "https://github.com/nlink-jp/chrome-pilot-mcp"
-  url "https://github.com/nlink-jp/chrome-pilot-mcp/releases/download/v0.1.0/chrome-pilot-mcp-v0.1.0-darwin-arm64.zip"
-  version "0.1.0"
-  sha256 "708f2eefb4c5a312188c61d187d50484d0708a63c446e4de937853c7d1d858ae"
+  url "https://github.com/nlink-jp/chrome-pilot-mcp/releases/download/v0.2.0/chrome-pilot-mcp-v0.2.0-darwin-arm64.zip"
+  version "0.2.0"
+  sha256 "15f631d334809d5e6e627df3307b46730c81df7ba99d39dfa6e80098ecd8ec05"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
@@ -16,6 +16,11 @@ class ChromePilotMcp < Formula
     bin.install "chrome-pilot-mcp"
   end
 
+  # The tool MUST answer `--version`, not only a `version` subcommand: without
+  # the flag it exits non-zero, `shell_output` raises, and `brew test` fails —
+  # while `brew install` still succeeds, so the breakage only surfaces once the
+  # tool is in the tap. With cobra, `rootCmd.Version = Version` provides the
+  # flag; keep its output identical to the subcommand's and pin both in a test.
   test do
     assert_match version.to_s, shell_output("#{bin}/chrome-pilot-mcp --version")
   end
