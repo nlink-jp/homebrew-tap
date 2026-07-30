@@ -15,7 +15,7 @@ brew install nlink-jp/tap/<name>          # CLI tools (formulae)
 brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 ```
 
-## Formulae (CLI) — 54
+## Formulae (CLI) — 55
 
 | Formula | Description |
 |---------|-------------|
@@ -57,6 +57,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `mdv` | Secure single-binary Markdown viewer and file browser |
 | `msg-to-jsonl` | Outlook MSG parser for shell pipelines, emitting JSONL |
 | `pcap-analyzer-mcp` | pcap/pcapng analysis via a containerized, version-pinned tshark |
+| `rdns-lookup` | Look up an IP's domains, a domain's subdomains, and reverse CNAMEs |
 | `rex` | Extract and merge fields from text with regular expressions |
 | `scat` | Send content to Slack and other services from your terminal |
 | `scli` | Terminal Slack client for channels, DMs, search, and unread |
@@ -74,7 +75,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `webhook-relay` | Authenticated webhook receiver that writes payloads to GCS |
 | `whois-lookup` | Look up domain/IP/ASN registration data via RDAP with WHOIS fallback |
 
-## Casks (GUI) — 10
+## Casks (GUI) — 11
 
 | Cask | Description |
 |------|-------------|
@@ -88,6 +89,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `quick-translate` | Menu-bar translation tool powered by a local LLM |
 | `share-mounter` | Menu-bar app that auto-mounts SMB shares at login, window-free |
 | `shell-agent-v2` | Local-first chat and agent tool with interactive data analysis |
+| `url-shelf` | Menu-bar shelf of URL notes kept as .webloc files, with private-window opening |
 
 ## Notarization
 
