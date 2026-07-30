@@ -15,7 +15,7 @@ brew install nlink-jp/tap/<name>          # CLI tools (formulae)
 brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 ```
 
-## Formulae (CLI) — 55
+## Formulae (CLI) — 56
 
 | Formula | Description |
 |---------|-------------|
@@ -52,6 +52,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `mac-lookup` | Resolves a MAC address or BSSID to its manufacturer, offline |
 | `mail-analyzer-local` | Local-LLM email analyzer via an OpenAI-compatible API |
 | `mail-analyzer` | Suspicious-email analyzer combining rule indicators and Gemini |
+| `malware-lookup` | Check file hashes against known-good and known-malware databases |
 | `mcp-guardian` | Zero-dependency MCP governance proxy |
 | `md-to-slack` | Markdown to Slack Block Kit JSON converter |
 | `mdv` | Secure single-binary Markdown viewer and file browser |
