@@ -1,6 +1,6 @@
 cask "instant-translate" do
-  version "0.1.3"
-  sha256 "4e132f764fbfab242085665c26fcfa4202c5471aba86181e770542cfc0d0c514"
+  version "0.2.0"
+  sha256 "94a28ebe220f36d3dcf5119682890d32934e9422699b99e0fba1aafe1c38f29a"
 
   url "https://github.com/nlink-jp/instant-translate/releases/download/v#{version}/instant-translate-v#{version}-darwin-arm64.zip"
   name "instant-translate"
@@ -9,10 +9,7 @@ cask "instant-translate" do
 
   # Developer ID signed + Apple-notarized + stapled .app (Apple Silicon only).
   depends_on arch: :arm64
-  # The app itself requires macOS 26 (LSMinimumSystemVersion) — the programmatic
-  # Translation API isn't there before it. Without this, brew would happily install
-  # a bundle the user's Mac can't launch.
-  depends_on macos: :tahoe
+  depends_on macos: :big_sur
 
   app "InstantTranslate.app"
 
