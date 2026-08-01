@@ -1,6 +1,6 @@
 cask "grid-edit" do
-  version "0.2.0"
-  sha256 "2c0fde13e217571ebbc8981e729539bf78cc432f5eb6f560d2b05b1cf8f289a8"
+  version "0.2.1"
+  sha256 "e296cf8f79ecc42cda8d3ae3d63907b055c83307093790eed86c406266917e8d"
 
   url "https://github.com/nlink-jp/grid-edit/releases/download/v#{version}/grid-edit-v#{version}-darwin-arm64.zip"
   name "grid-edit"
