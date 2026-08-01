@@ -1,6 +1,6 @@
 cask "zip-porter" do
-  version "0.7.0"
-  sha256 "b957994d2b3363208c7a44b4086cca50c27d99cd50270d454ca1b80506204f2b"
+  version "0.8.1"
+  sha256 "d927ab0ecc8d6195a05e5e6e8b496ab17ba1de5df16a4203b179ddc0292f5199"
 
   url "https://github.com/nlink-jp/zip-porter/releases/download/v#{version}/zip-porter-v#{version}-darwin-arm64.zip"
   name "zip-porter"
