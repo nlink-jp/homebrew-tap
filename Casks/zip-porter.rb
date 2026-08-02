@@ -1,6 +1,6 @@
 cask "zip-porter" do
-  version "0.9.1"
-  sha256 "8b88cafc23245fe82d4c18c3886ae2f15e98200c2d6d52aa627abb6c8d7b247f"
+  version "0.9.2"
+  sha256 "66076b3cb411dee7559fdf05428e7b2cac62add5754b4fa398d453f63ad883f2"
 
   url "https://github.com/nlink-jp/zip-porter/releases/download/v#{version}/zip-porter-v#{version}-darwin-arm64.zip"
   name "zip-porter"
@@ -12,6 +12,7 @@ cask "zip-porter" do
   depends_on macos: :sonoma
 
   app "ZipPorter.app"
+  binary "#{appdir}/ZipPorter.app/Contents/MacOS/ZipPorter", target: "zip-porter"
 
   zap trash: [
     "~/Library/Caches/jp.nlink.zip-porter",
