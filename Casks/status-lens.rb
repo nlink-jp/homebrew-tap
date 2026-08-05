@@ -1,6 +1,6 @@
 cask "status-lens" do
-  version "0.1.0"
-  sha256 "2a3e80c01b1ce0d25b8efa1df35fdcc0cd40c56c100d7d6868f09dba1649aafd"
+  version "0.1.1"
+  sha256 "ccbef841de2cbf14b044b88f96d392362c2d0f4fc800bb1e7fc684dc121bea5a"
 
   url "https://github.com/nlink-jp/status-lens/releases/download/v#{version}/status-lens-v#{version}-darwin-arm64.zip"
   name "status-lens"
