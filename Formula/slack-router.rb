@@ -2,7 +2,6 @@ class SlackRouter < Formula
   desc "Route Slack slash-commands with a cron-like approach"
   homepage "https://github.com/nlink-jp/slack-router"
   url "https://github.com/nlink-jp/slack-router/releases/download/v0.3.0/slack-router-v0.3.0-darwin-arm64.zip"
-  version "0.3.0"
   sha256 "2c53d91c133ae4c3a7aed9931280a6fca87fa7dfa4487124d7e682a8777dc793"
   license "MIT"
 

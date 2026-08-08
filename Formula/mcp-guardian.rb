@@ -2,7 +2,6 @@ class McpGuardian < Formula
   desc "Zero-dependency MCP governance proxy"
   homepage "https://github.com/nlink-jp/mcp-guardian"
   url "https://github.com/nlink-jp/mcp-guardian/releases/download/v0.9.0/mcp-guardian-v0.9.0-darwin-arm64.zip"
-  version "0.9.0"
   sha256 "5d527b5ed15bfce719a94263eb13df5d01a5e05f37db2203f37d3339752befce"
   license "MIT"
 

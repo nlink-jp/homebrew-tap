@@ -2,7 +2,6 @@ class SplunkCli < Formula
   desc "Run SPL queries and manage search jobs on Splunk"
   homepage "https://github.com/nlink-jp/splunk-cli"
   url "https://github.com/nlink-jp/splunk-cli/releases/download/v2.2.0/splunk-cli-v2.2.0-darwin-arm64.zip"
-  version "2.2.0"
   sha256 "32cd4a16c369b79f0d663398831dd39dfef7f344ce33430b9cac5d8cd6adb827"
   license "MIT"
 

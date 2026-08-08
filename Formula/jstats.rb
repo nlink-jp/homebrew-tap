@@ -2,7 +2,6 @@ class Jstats < Formula
   desc "SPL-style stats aggregations for JSON streams"
   homepage "https://github.com/nlink-jp/jstats"
   url "https://github.com/nlink-jp/jstats/releases/download/v1.2.0/jstats-v1.2.0-darwin-arm64.zip"
-  version "1.2.0"
   sha256 "53f8cb97196999e8c89e4884339f3cf11505a4cf2fadcc1eb474b6b4645e19c4"
   license "MIT"
 

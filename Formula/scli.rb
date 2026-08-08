@@ -2,7 +2,6 @@ class Scli < Formula
   desc "Terminal Slack client for channels, DMs, search, and unread"
   homepage "https://github.com/nlink-jp/scli"
   url "https://github.com/nlink-jp/scli/releases/download/v1.8.0/scli-v1.8.0-darwin-arm64.zip"
-  version "1.8.0"
   sha256 "c8e643d28f7e555633a8716b28be23d6c6c5b681f603e925518db850ac5bf441"
   license "MIT"
 

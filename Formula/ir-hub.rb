@@ -2,7 +2,6 @@ class IrHub < Formula
   desc "Incident-response lifecycle hub as a Slack ChatOps bot"
   homepage "https://github.com/nlink-jp/ir-hub"
   url "https://github.com/nlink-jp/ir-hub/releases/download/v0.4.0/ir-hub-v0.4.0-darwin-arm64.zip"
-  version "0.4.0"
   sha256 "e75d7dc266e0a395bc48d4bfc302020997d2f5c3d53df15136cc063115b9afc2"
   license "MIT"
 

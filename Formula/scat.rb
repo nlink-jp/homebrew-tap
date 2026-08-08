@@ -2,7 +2,6 @@ class Scat < Formula
   desc "Send content to Slack and other services from your terminal"
   homepage "https://github.com/nlink-jp/scat"
   url "https://github.com/nlink-jp/scat/releases/download/v1.15.0/scat-v1.15.0-darwin-arm64.zip"
-  version "1.15.0"
   sha256 "887970b34a549af22fe12a2a475ecdf5a82de5d3a1fc2ab42947c756552ae657"
   license "MIT"
 

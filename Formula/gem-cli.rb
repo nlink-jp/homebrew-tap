@@ -2,7 +2,6 @@ class GemCli < Formula
   desc "Gemini CLI client with multimodal, streaming, and grounding"
   homepage "https://github.com/nlink-jp/gem-cli"
   url "https://github.com/nlink-jp/gem-cli/releases/download/v0.4.0/gem-cli-v0.4.0-darwin-arm64.zip"
-  version "0.4.0"
   sha256 "d55c122ff2b1f7ee0aef6651a3cff060ca1233540bde031b83ad2dc39c9261f4"
   license "MIT"
 

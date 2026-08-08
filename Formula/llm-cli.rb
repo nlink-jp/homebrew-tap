@@ -2,7 +2,6 @@ class LlmCli < Formula
   desc "CLI client for local LLMs via an OpenAI-compatible API"
   homepage "https://github.com/nlink-jp/llm-cli"
   url "https://github.com/nlink-jp/llm-cli/releases/download/v0.2.0/llm-cli-v0.2.0-darwin-arm64.zip"
-  version "0.2.0"
   sha256 "0cc36a948ca7f8a8e80e6cf1e8a1a49c00016d77a8c39cb0c53152dfeb71961c"
   license "MIT"
 

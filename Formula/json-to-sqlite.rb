@@ -2,7 +2,6 @@ class JsonToSqlite < Formula
   desc "Convert JSON to SQLite with automatic schema inference"
   homepage "https://github.com/nlink-jp/json-to-sqlite"
   url "https://github.com/nlink-jp/json-to-sqlite/releases/download/v1.3.0/json-to-sqlite-v1.3.0-darwin-arm64.zip"
-  version "1.3.0"
   sha256 "da694e944a13fef3f082365672d64f410014535287f1237236d0c0d4ef7cdca2"
   license "MIT"
 

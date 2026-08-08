@@ -2,7 +2,6 @@ class CsvToJson < Formula
   desc "Fast CSV-to-JSON converter for shell pipelines"
   homepage "https://github.com/nlink-jp/csv-to-json"
   url "https://github.com/nlink-jp/csv-to-json/releases/download/v1.1.0/csv-to-json-v1.1.0-darwin-arm64.zip"
-  version "1.1.0"
   sha256 "2e038f765667196a125b042045e98e2e134b04efe386fed44d34ad79e45ebee5"
   license "MIT"
 

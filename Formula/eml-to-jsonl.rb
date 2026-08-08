@@ -2,7 +2,6 @@ class EmlToJsonl < Formula
   desc "EML parser for shell pipelines, emitting headers and body as JSONL"
   homepage "https://github.com/nlink-jp/eml-to-jsonl"
   url "https://github.com/nlink-jp/eml-to-jsonl/releases/download/v0.4.0/eml-to-jsonl-v0.4.0-darwin-arm64.zip"
-  version "0.4.0"
   sha256 "cd86e8687f7943cdc0dc801650b5d21832917206b6a5b6253cd54b4bdfcacc1d"
   license "MIT"
 

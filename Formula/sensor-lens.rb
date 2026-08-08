@@ -2,7 +2,6 @@ class SensorLens < Formula
   desc "Collect SwitchBot temperature, humidity and CO2 into a local history"
   homepage "https://github.com/nlink-jp/sensor-lens"
   url "https://github.com/nlink-jp/sensor-lens/releases/download/v0.1.0/sensor-lens-v0.1.0-darwin-arm64.zip"
-  version "0.1.0"
   sha256 "61f389212b74af106fa0e7bee08bca7f1626e1c6be9a3737efb803a4a57e4ae0"
   license "MIT"
 

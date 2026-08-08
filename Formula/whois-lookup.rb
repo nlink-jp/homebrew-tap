@@ -2,7 +2,6 @@ class WhoisLookup < Formula
   desc "Look up domain/IP/ASN registration data via RDAP with WHOIS fallback"
   homepage "https://github.com/nlink-jp/whois-lookup"
   url "https://github.com/nlink-jp/whois-lookup/releases/download/v0.1.0/whois-lookup-v0.1.0-darwin-arm64.zip"
-  version "0.1.0"
   sha256 "8148c75d807a7708426dc27f2b7b02eabe691ba95b8ed2700aa17480a1ae4a67"
   license "MIT"
 

@@ -2,7 +2,6 @@ class LiteSwitch < Formula
   desc "Natural-language classifier for shell pipelines"
   homepage "https://github.com/nlink-jp/lite-switch"
   url "https://github.com/nlink-jp/lite-switch/releases/download/v0.2.0/lite-switch-v0.2.0-darwin-arm64.zip"
-  version "0.2.0"
   sha256 "de7c6b3eb173da40a4077aafbeddd495525f6706b9dab8c8ff56f2b5681e1881"
   license "MIT"
 

@@ -2,7 +2,6 @@ class ClaudeUsageLens < Formula
   desc "Token usage and cost analyzer for Claude Code and Cowork logs"
   homepage "https://github.com/nlink-jp/claude-usage-lens"
   url "https://github.com/nlink-jp/claude-usage-lens/releases/download/v0.6.0/claude-usage-lens-v0.6.0-darwin-arm64.zip"
-  version "0.6.0"
   sha256 "9b54999717521a6892b82ef7084162145eed842b71ef088d236b28c69ffc068c"
   license "MIT"
 

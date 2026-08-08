@@ -2,7 +2,6 @@ class Rex < Formula
   desc "Extract and merge fields from text with regular expressions"
   homepage "https://github.com/nlink-jp/rex"
   url "https://github.com/nlink-jp/rex/releases/download/v1.3.0/rex-v1.3.0-darwin-arm64.zip"
-  version "1.3.0"
   sha256 "06db9d7a47d32c286d71795630320037a15761c73f2ac12c1fd8d9ba1b4f3f14"
   license "MIT"
 
