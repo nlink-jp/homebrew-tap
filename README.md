@@ -57,6 +57,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `md-to-slack` | Markdown to Slack Block Kit JSON converter |
 | `mdv` | Secure single-binary Markdown viewer and file browser |
 | `msg-to-jsonl` | Outlook MSG parser for shell pipelines, emitting JSONL |
+| `otx-lookup` | Campaign context for an indicator, from OTX community pulses |
 | `pcap-analyzer-mcp` | pcap/pcapng analysis via a containerized, version-pinned tshark |
 | `rdns-lookup` | Look up an IP's domains, a domain's subdomains, and reverse CNAMEs |
 | `rex` | Extract and merge fields from text with regular expressions |
