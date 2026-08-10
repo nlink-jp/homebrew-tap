@@ -1,8 +1,8 @@
 class OtxLookup < Formula
   desc "Campaign context for an indicator, from OTX community pulses"
   homepage "https://github.com/nlink-jp/otx-lookup"
-  url "https://github.com/nlink-jp/otx-lookup/releases/download/v0.1.1/otx-lookup-v0.1.1-darwin-arm64.zip"
-  sha256 "0e84ddfa7c2c1f7fd3e32b6c2108eddde4405c0406cd3338d8557fb17e195ddb"
+  url "https://github.com/nlink-jp/otx-lookup/releases/download/v0.1.2/otx-lookup-v0.1.2-darwin-arm64.zip"
+  sha256 "bc16290e6ca8527ad29f99e78bb04fa773f83cbb304dd22ed40ae17e6ed458ed"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
