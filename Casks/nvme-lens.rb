@@ -1,6 +1,6 @@
 cask "nvme-lens" do
-  version "0.1.1"
-  sha256 "f4345588f1ba60fa5f716fb8cf64ca1c16216527efdc18124261243ca1ae2bb4"
+  version "0.1.2"
+  sha256 "e622cfcf33f7710faa512f7be1dbda2e8bd6fc10810af08a7a40ba03e2cacab9"
 
   url "https://github.com/nlink-jp/nvme-lens/releases/download/v#{version}/nvme-lens-v#{version}-darwin-arm64.zip"
   name "nvme-lens"
