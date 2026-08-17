@@ -9,7 +9,7 @@ cask "nvme-lens" do
 
   # Developer ID signed + Apple-notarized + stapled .app (Apple Silicon only).
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "NvmeLens.app"
 
