@@ -77,21 +77,26 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `webhook-relay` | Authenticated webhook receiver that writes payloads to GCS |
 | `whois-lookup` | Look up domain/IP/ASN registration data via RDAP with WHOIS fallback |
 
-## Casks (GUI) — 11
+## Casks (GUI) — 16
 
 | Cask | Description |
 |------|-------------|
 | `active-lens-gui` | Menu-bar work-log app that visualizes operating time |
 | `claude-usage-lens-gui` | Menu-bar app showing today's Claude usage cost with charts |
 | `csv-editor` | Viewer and editor for CSV and TSV files |
+| `grid-edit` | Native macOS CSV/TSV editor with Japanese-encoding and delimiter auto-detection |
 | `image-forge-gui` | SwiftUI front-end for the image-forge local image generator |
 | `instant-translate` | Lightweight menu-bar translator using macOS on-device Translation |
 | `load-spinner` | Menu-bar CPU/GPU load indicator that spins with system load |
 | `mail-analyzer-gui` | Drag-and-drop desktop app for suspicious email analysis |
+| `nvme-lens` | Menu-bar monitor for NVMe SSD temperature and endurance |
 | `quick-translate` | Menu-bar translation tool powered by a local LLM |
+| `sensor-lens-gui` | Menu-bar readout of your SwitchBot temperature, humidity and CO2 |
 | `share-mounter` | Menu-bar app that auto-mounts SMB shares at login, window-free |
 | `shell-agent-v2` | Local-first chat and agent tool with interactive data analysis |
+| `status-lens` | Menu-bar service status watcher for Statuspage-hosted pages |
 | `url-shelf` | Menu-bar shelf of URL notes kept as .webloc files, with private-window opening |
+| `zip-porter` | Windows-safe ZIP creation and extraction for macOS (junk-free, NFC/CP932-aware, password-capable) |
 
 ## Notarization
 
