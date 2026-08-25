@@ -1,6 +1,6 @@
 cask "instant-translate" do
-  version "0.3.0"
-  sha256 "85750d98cb3cbb52551377b2eafbe6e67ba967e72e337843b4038e64fef2b98c"
+  version "0.3.1"
+  sha256 "7389daec1c15fe8c31dc508feaceaa8d0d7efac2f1f5e5f7bea7e1879ede34cd"
 
   url "https://github.com/nlink-jp/instant-translate/releases/download/v#{version}/instant-translate-v#{version}-darwin-arm64.zip"
   name "instant-translate"
