@@ -1,6 +1,6 @@
 cask "quick-translate" do
-  version "0.1.2"
-  sha256 "0b33ed8e179e74d4d8501accc83c7ad5654a1fef32a950fcccaa910fc932272e"
+  version "0.1.3"
+  sha256 "b9797a157e94b2ee412f346a0ead9b81f34e0e3877fbe064627051087770ff61"
 
   url "https://github.com/nlink-jp/quick-translate/releases/download/v#{version}/quick-translate-v#{version}-darwin-arm64.zip"
   name "quick-translate"
