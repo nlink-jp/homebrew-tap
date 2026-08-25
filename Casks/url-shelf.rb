@@ -1,6 +1,6 @@
 cask "url-shelf" do
-  version "0.1.0"
-  sha256 "3e836f6b65be0d8e095f14b937d6944465b28f0d9ac3b0cefd60d041b549c7fb"
+  version "0.1.1"
+  sha256 "c14edc1972f0690ab50ee9fde34dfc0662e7fad14ee15231dfc4a9b4ce71315a"
 
   url "https://github.com/nlink-jp/url-shelf/releases/download/v#{version}/url-shelf-v#{version}-darwin-arm64.zip"
   name "url-shelf"
