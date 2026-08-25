@@ -1,6 +1,6 @@
 cask "nvme-lens" do
-  version "0.1.2"
-  sha256 "e622cfcf33f7710faa512f7be1dbda2e8bd6fc10810af08a7a40ba03e2cacab9"
+  version "0.1.3"
+  sha256 "a8d4cf18b66858675c0406469f04865f7faf766eb0d34a6d9b659b614f139372"
 
   url "https://github.com/nlink-jp/nvme-lens/releases/download/v#{version}/nvme-lens-v#{version}-darwin-arm64.zip"
   name "nvme-lens"
@@ -14,9 +14,9 @@ cask "nvme-lens" do
   app "NvmeLens.app"
 
   zap trash: [
-    "~/Library/Application Support/nvme-lens",
     "~/Library/Caches/jp.nlink.nvme-lens",
     "~/Library/Preferences/jp.nlink.nvme-lens.plist",
     "~/Library/Saved Application State/jp.nlink.nvme-lens.savedState",
+    "~/Library/WebKit/jp.nlink.nvme-lens",
   ]
 end
