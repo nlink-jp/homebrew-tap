@@ -15,7 +15,7 @@ brew install nlink-jp/tap/<name>          # CLI tools (formulae)
 brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 ```
 
-## Formulae (CLI) — 56
+## Formulae (CLI) — 61
 
 | Formula | Description |
 |---------|-------------|
@@ -31,6 +31,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `data-toolbox-mcp` | MCP server for DuckDB analysis and sandboxed Python execution |
 | `doh-lookup` | Collect a domain's DNS records over DoH (out-of-band, distinguishable) |
 | `eml-to-jsonl` | EML parser for shell pipelines, emitting headers and body as JSONL |
+| `gem-agent` | Interactive CLI agent on Vertex AI Gemini (Claude Code fallback) |
 | `gem-cli` | Gemini CLI client with multimodal, streaming, and grounding |
 | `gem-image` | Image generation and editing CLI using Vertex AI Gemini |
 | `gem-query` | Natural-language data analysis CLI for DuckDB and SQLite via Gemini |
@@ -50,9 +51,10 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `llm-cli` | CLI client for local LLMs via an OpenAI-compatible API |
 | `lookup` | Enrich JSON/JSONL streams by looking up values from tables |
 | `mac-lookup` | Resolves a MAC address or BSSID to its manufacturer, offline |
-| `mail-analyzer-local` | Local-LLM email analyzer via an OpenAI-compatible API |
 | `mail-analyzer` | Suspicious-email analyzer combining rule indicators and Gemini |
+| `mail-analyzer-local` | Local-LLM email analyzer via an OpenAI-compatible API |
 | `malware-lookup` | Check file hashes against known-good and known-malware databases |
+| `mcp-bridge` | Bridge stdio MCP clients to HTTP servers needing a pre-registered OAuth client |
 | `mcp-guardian` | Zero-dependency MCP governance proxy |
 | `md-to-slack` | Markdown to Slack Block Kit JSON converter |
 | `mdv` | Secure single-binary Markdown viewer and file browser |
@@ -64,6 +66,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `scat` | Send content to Slack and other services from your terminal |
 | `scli` | Terminal Slack client for channels, DMs, search, and unread |
 | `sdate` | Compute timestamps using Splunk-like relative time syntax |
+| `sensor-lens` | Collect SwitchBot temperature, humidity and CO2 into a local history |
 | `slack-mcp-extender` | Transparent proxy for the official Slack MCP with file upload/download extension tools |
 | `slack-router` | Route Slack slash-commands with a cron-like approach |
 | `splunk-cli` | Run SPL queries and manage search jobs on Splunk |
@@ -73,6 +76,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `tor-exit-lookup` | Check whether an IP address is a Tor Exit node (offline) |
 | `urlscan-lookup` | Investigate a suspicious URL via the urlscan.io API (CLI + MCP) |
 | `video-studio-mcp` | MCP server compositing page images and audio into a narrated MP4 |
+| `voice-scribe` | Local speech-to-text engine and MCP server |
 | `voice-studio-mcp` | Multi-speaker Japanese speech-synthesis MCP server |
 | `webhook-relay` | Authenticated webhook receiver that writes payloads to GCS |
 | `whois-lookup` | Look up domain/IP/ASN registration data via RDAP with WHOIS fallback |
