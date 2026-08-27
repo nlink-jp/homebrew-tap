@@ -1,8 +1,8 @@
 class VoiceScribe < Formula
   desc "Local speech-to-text engine and MCP server"
   homepage "https://github.com/nlink-jp/voice-scribe"
-  url "https://github.com/nlink-jp/voice-scribe/releases/download/v0.2.0/voice-scribe-v0.2.0-darwin-arm64.zip"
-  sha256 "65b1bdb95fb53abfe6d3be307e7d7da936ef77a87c3770b7d18f4f90794649ac"
+  url "https://github.com/nlink-jp/voice-scribe/releases/download/v0.2.1/voice-scribe-v0.2.1-darwin-arm64.zip"
+  sha256 "a5eda617f8bf4ce3677faa2fcf45f5a3dfe83cdbbc4e6349d8bc7fb02beca424"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
