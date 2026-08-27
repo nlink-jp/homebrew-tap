@@ -1,6 +1,6 @@
 cask "mail-analyzer-gui" do
-  version "0.3.0"
-  sha256 "f522126848ac2ccce9eb7710634c281b146ef7e7db7fc2bddeca1ba8460e307f"
+  version "0.3.1"
+  sha256 "c0ab3614c993cb50e4357b9b3af513972bc77b2d5d37ae30a0b533c9dd59fa9e"
 
   url "https://github.com/nlink-jp/mail-analyzer-gui/releases/download/v#{version}/mail-analyzer-gui-v#{version}-darwin-arm64.zip"
   name "mail-analyzer-gui"
