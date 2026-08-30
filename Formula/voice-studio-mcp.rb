@@ -1,8 +1,8 @@
 class VoiceStudioMcp < Formula
   desc "Multi-speaker Japanese speech-synthesis MCP server"
   homepage "https://github.com/nlink-jp/voice-studio-mcp"
-  url "https://github.com/nlink-jp/voice-studio-mcp/releases/download/v0.4.5/voice-studio-mcp-v0.4.5-darwin-arm64.zip"
-  sha256 "b4955c24e286744cb539bb0aa828a34dbcbb4d9607485586fc57a5e3c96000b4"
+  url "https://github.com/nlink-jp/voice-studio-mcp/releases/download/v0.4.6/voice-studio-mcp-v0.4.6-darwin-arm64.zip"
+  sha256 "51694a1750152c54f30b518a51e0057aaa14d1da4117e5b883994f9695bd376a"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
@@ -15,6 +15,11 @@ class VoiceStudioMcp < Formula
     bin.install "voice-studio-mcp"
   end
 
+  # The tool MUST answer `--version`, not only a `version` subcommand: without
+  # the flag it exits non-zero, `shell_output` raises, and `brew test` fails —
+  # while `brew install` still succeeds, so the breakage only surfaces once the
+  # tool is in the tap. With cobra, `rootCmd.Version = Version` provides the
+  # flag; keep its output identical to the subcommand's and pin both in a test.
   test do
     assert_match version.to_s, shell_output("#{bin}/voice-studio-mcp --version")
   end
