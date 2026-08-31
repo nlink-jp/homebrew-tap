@@ -31,7 +31,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `data-toolbox-mcp` | MCP server for DuckDB analysis and sandboxed Python execution |
 | `doh-lookup` | Collect a domain's DNS records over DoH (out-of-band, distinguishable) |
 | `eml-to-jsonl` | EML parser for shell pipelines, emitting headers and body as JSONL |
-| `gem-agent` | Interactive CLI agent on Vertex AI Gemini (Claude Code fallback) |
+| `gem-agent` | Interactive CLI agent runtime on Vertex AI Gemini |
 | `gem-cli` | Gemini CLI client with multimodal, streaming, and grounding |
 | `gem-image` | Image generation and editing CLI using Vertex AI Gemini |
 | `gem-query` | Natural-language data analysis CLI for DuckDB and SQLite via Gemini |
