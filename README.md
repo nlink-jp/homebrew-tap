@@ -37,6 +37,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `gem-query` | Natural-language data analysis CLI for DuckDB and SQLite via Gemini |
 | `gem-search` | Agentic web search CLI using Vertex AI Grounding |
 | `gem-summary` | Single-call Vertex AI Gemini text summarizer |
+| `gti-lookup` | Threat context from Google Threat Intelligence (Standard tier, commercial licence required) |
 | `icloud-relay-lookup` | Check whether an IP address is an iCloud Private Relay egress IP (offline) |
 | `image-forge` | Local diffusion image-generation engine and model manager |
 | `ir-hub` | Incident-response lifecycle hub as a Slack ChatOps bot |
