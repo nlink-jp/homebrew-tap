@@ -1,8 +1,8 @@
 class GemAgent < Formula
   desc "Interactive CLI agent on Vertex AI Gemini (Claude Code fallback)"
   homepage "https://github.com/nlink-jp/gem-agent"
-  url "https://github.com/nlink-jp/gem-agent/releases/download/v0.59.0/gem-agent-v0.59.0-darwin-arm64.zip"
-  sha256 "e297f9ead73141f699ef0ad6ab66380a97944707396adb64a984c3731d7db141"
+  url "https://github.com/nlink-jp/gem-agent/releases/download/v0.60.0/gem-agent-v0.60.0-darwin-arm64.zip"
+  sha256 "2790923bd12be1484ab5dfd36292ed1b5cabdc2626edec1b70bc2db130c9b331"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
