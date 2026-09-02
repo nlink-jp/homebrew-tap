@@ -15,7 +15,7 @@ brew install nlink-jp/tap/<name>          # CLI tools (formulae)
 brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 ```
 
-## Formulae (CLI) — 62
+## Formulae (CLI) — 65
 
 | Formula | Description |
 |---------|-------------|
@@ -36,6 +36,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `gem-image` | Image generation and editing CLI using Vertex AI Gemini |
 | `gem-query` | Natural-language data analysis CLI for DuckDB and SQLite via Gemini |
 | `gem-search` | Agentic web search CLI using Vertex AI Grounding |
+| `gem-scribe` | Cloud speech-to-text CLI and MCP server on Vertex AI Gemini |
 | `gem-summary` | Single-call Vertex AI Gemini text summarizer |
 | `gem-usage-lens` | Token usage and cost analyzer for gem-agent session logs (Vertex AI Gemini) |
 | `gti-lookup` | Threat context from Google Threat Intelligence (Standard tier, commercial licence required) |
@@ -74,6 +75,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `splunk-cli` | Run SPL queries and manage search jobs on Splunk |
 | `splunk-mcp` | MCP server for Splunk search with exact result counts over the REST API |
 | `stail` | Read-only Slack CLI that streams and exports messages like tail -f |
+| `task-clock` | Resident macOS scheduler that does not trust launchd timing |
 | `swrite` | Post messages and files to Slack from your terminal |
 | `tor-exit-lookup` | Check whether an IP address is a Tor Exit node (offline) |
 | `urlscan-lookup` | Investigate a suspicious URL via the urlscan.io API (CLI + MCP) |
@@ -83,7 +85,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `webhook-relay` | Authenticated webhook receiver that writes payloads to GCS |
 | `whois-lookup` | Look up domain/IP/ASN registration data via RDAP with WHOIS fallback |
 
-## Casks (GUI) — 17
+## Casks (GUI) — 18
 
 | Cask | Description |
 |------|-------------|
@@ -102,6 +104,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `share-mounter` | Menu-bar app that auto-mounts SMB shares at login, window-free |
 | `shell-agent-v2` | Local-first chat and agent tool with interactive data analysis |
 | `status-lens` | Menu-bar service status watcher for Statuspage-hosted pages |
+| `task-clock-gui` | Menu-bar front end for the task-clock scheduler |
 | `url-shelf` | Menu-bar shelf of URL notes kept as .webloc files, with private-window opening |
 | `zip-porter` | Windows-safe ZIP creation and extraction for macOS (junk-free, NFC/CP932-aware, password-capable) |
 
