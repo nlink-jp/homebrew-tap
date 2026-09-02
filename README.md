@@ -15,7 +15,7 @@ brew install nlink-jp/tap/<name>          # CLI tools (formulae)
 brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 ```
 
-## Formulae (CLI) — 61
+## Formulae (CLI) — 62
 
 | Formula | Description |
 |---------|-------------|
@@ -37,6 +37,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `gem-query` | Natural-language data analysis CLI for DuckDB and SQLite via Gemini |
 | `gem-search` | Agentic web search CLI using Vertex AI Grounding |
 | `gem-summary` | Single-call Vertex AI Gemini text summarizer |
+| `gem-usage-lens` | Token usage and cost analyzer for gem-agent session logs (Vertex AI Gemini) |
 | `gti-lookup` | Threat context from Google Threat Intelligence (Standard tier, commercial licence required) |
 | `icloud-relay-lookup` | Check whether an IP address is an iCloud Private Relay egress IP (offline) |
 | `image-forge` | Local diffusion image-generation engine and model manager |
@@ -82,13 +83,14 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `webhook-relay` | Authenticated webhook receiver that writes payloads to GCS |
 | `whois-lookup` | Look up domain/IP/ASN registration data via RDAP with WHOIS fallback |
 
-## Casks (GUI) — 16
+## Casks (GUI) — 17
 
 | Cask | Description |
 |------|-------------|
 | `active-lens-gui` | Menu-bar work-log app that visualizes operating time |
 | `claude-usage-lens-gui` | Menu-bar app showing today's Claude usage cost with charts |
 | `csv-editor` | Viewer and editor for CSV and TSV files |
+| `gem-usage-lens-gui` | Menu-bar app showing today's gem-agent (Vertex AI Gemini) usage cost with charts and a monthly budget |
 | `grid-edit` | Native macOS CSV/TSV editor with Japanese-encoding and delimiter auto-detection |
 | `image-forge-gui` | SwiftUI front-end for the image-forge local image generator |
 | `instant-translate` | Lightweight menu-bar translator using macOS on-device Translation |
