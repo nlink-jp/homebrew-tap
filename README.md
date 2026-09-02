@@ -35,8 +35,8 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `gem-cli` | Gemini CLI client with multimodal, streaming, and grounding |
 | `gem-image` | Image generation and editing CLI using Vertex AI Gemini |
 | `gem-query` | Natural-language data analysis CLI for DuckDB and SQLite via Gemini |
-| `gem-search` | Agentic web search CLI using Vertex AI Grounding |
 | `gem-scribe` | Cloud speech-to-text CLI and MCP server on Vertex AI Gemini |
+| `gem-search` | Agentic web search CLI using Vertex AI Grounding |
 | `gem-summary` | Single-call Vertex AI Gemini text summarizer |
 | `gem-usage-lens` | Token usage and cost analyzer for gem-agent session logs (Vertex AI Gemini) |
 | `gti-lookup` | Threat context from Google Threat Intelligence (Standard tier, commercial licence required) |
@@ -75,8 +75,8 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `splunk-cli` | Run SPL queries and manage search jobs on Splunk |
 | `splunk-mcp` | MCP server for Splunk search with exact result counts over the REST API |
 | `stail` | Read-only Slack CLI that streams and exports messages like tail -f |
-| `task-clock` | Resident macOS scheduler that does not trust launchd timing |
 | `swrite` | Post messages and files to Slack from your terminal |
+| `task-clock` | Resident macOS scheduler that does not trust launchd timing |
 | `tor-exit-lookup` | Check whether an IP address is a Tor Exit node (offline) |
 | `urlscan-lookup` | Investigate a suspicious URL via the urlscan.io API (CLI + MCP) |
 | `video-studio-mcp` | MCP server compositing page images and audio into a narrated MP4 |
