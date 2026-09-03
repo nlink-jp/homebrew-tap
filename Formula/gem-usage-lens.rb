@@ -1,8 +1,8 @@
 class GemUsageLens < Formula
   desc "Token usage and cost analyzer for gem-agent session logs (Vertex AI Gemini)"
   homepage "https://github.com/nlink-jp/gem-usage-lens"
-  url "https://github.com/nlink-jp/gem-usage-lens/releases/download/v0.1.2/gem-usage-lens-v0.1.2-darwin-arm64.zip"
-  sha256 "3c6db49615cde1dd924b6b732765ed88862d465d56e0af94dc48eb92ec3312ea"
+  url "https://github.com/nlink-jp/gem-usage-lens/releases/download/v0.1.3/gem-usage-lens-v0.1.3-darwin-arm64.zip"
+  sha256 "efad52344cd4b390f8b22e79b4f789aff44c664da530ca6152459b5a113fc289"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
