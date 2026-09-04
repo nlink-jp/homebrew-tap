@@ -1,8 +1,8 @@
 class AgentBoard < Formula
   desc "Machine-local shared knowledge board for concurrent AI agent sessions (CLI + hooks + MCP)"
   homepage "https://github.com/nlink-jp/agent-board"
-  url "https://github.com/nlink-jp/agent-board/releases/download/v0.1.0/agent-board-v0.1.0-darwin-arm64.zip"
-  sha256 "c17c42a3ccd69312e10647840e766f0e965a59633ed4fb408d274c2b08430bb3"
+  url "https://github.com/nlink-jp/agent-board/releases/download/v0.2.0/agent-board-v0.2.0-darwin-arm64.zip"
+  sha256 "162842b30e85aa76950e0d01c6f1ca4b53c79481cf61f299cd31e4646fe44a4b"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
