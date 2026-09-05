@@ -1,6 +1,6 @@
 cask "gem-usage-lens-gui" do
-  version "0.1.4"
-  sha256 "74f74c7347b588a55952ade5cd18d4c6cfa717485b5c051080146ec528b44665"
+  version "0.1.5"
+  sha256 "533937c3a6cd95bd82b058319fc6a62b670b00947420302e0b1bd840097d9517"
 
   url "https://github.com/nlink-jp/gem-usage-lens-gui/releases/download/v#{version}/gem-usage-lens-gui-v#{version}-darwin-arm64.zip"
   name "gem-usage-lens-gui"
