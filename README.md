@@ -15,15 +15,17 @@ brew install nlink-jp/tap/<name>          # CLI tools (formulae)
 brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 ```
 
-## Formulae (CLI) — 66
+## Formulae (CLI) — 68
 
 | Formula | Description |
 |---------|-------------|
 | `abuse-lookup` | Check IP address reputation against the AbuseIPDB API |
 | `active-lens` | Content-free activity tracker recording when you work, not what |
+| `agent-board` | Machine-local shared knowledge board for concurrent AI agent sessions (CLI + hooks + MCP) |
 | `ask-gemini-mcp` | MCP server exposing ask_gemini(prompt) backed by Vertex AI Gemini |
 | `ask-llm-mcp` | MCP server exposing ask_llm(prompt) for OpenAI-compatible endpoints |
 | `asn-lookup` | Local IP-to-ASN and ASN-to-prefix lookups from the IPinfo Lite database |
+| `bigquery-mcp` | Protection-first BigQuery MCP server with a dry-run budget gate and structured errors |
 | `chrome-pilot-mcp` | Zero-dependency Chrome automation MCP server (CDP direct) |
 | `claude-usage-lens` | Token usage and cost analyzer for Claude Code and Cowork logs |
 | `csv-to-json` | Fast CSV-to-JSON converter for shell pipelines |
