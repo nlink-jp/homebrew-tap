@@ -15,7 +15,7 @@ brew install nlink-jp/tap/<name>          # CLI tools (formulae)
 brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 ```
 
-## Formulae (CLI) — 65
+## Formulae (CLI) — 66
 
 | Formula | Description |
 |---------|-------------|
@@ -49,6 +49,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `json-to-table` | Render JSON arrays as text, Markdown, or CSV tables |
 | `jstats` | SPL-style stats aggregations for JSON streams |
 | `jviz` | Visualize JSON data in the browser from your terminal |
+| `lagent` | Sandboxed coding-agent runtime on a local LLM (LM Studio / Ollama) |
 | `lite-rag` | RAG CLI for Markdown documents using a local LLM |
 | `lite-switch` | Natural-language classifier for shell pipelines |
 | `llm-cli` | CLI client for local LLMs via an OpenAI-compatible API |
