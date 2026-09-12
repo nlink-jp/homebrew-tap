@@ -15,7 +15,7 @@ brew install nlink-jp/tap/<name>          # CLI tools (formulae)
 brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 ```
 
-## Formulae (CLI) — 68
+## Formulae (CLI) — 69
 
 | Formula | Description |
 |---------|-------------|
@@ -26,6 +26,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `ask-llm-mcp` | MCP server exposing ask_llm(prompt) for OpenAI-compatible endpoints |
 | `asn-lookup` | Local IP-to-ASN and ASN-to-prefix lookups from the IPinfo Lite database |
 | `bigquery-mcp` | Protection-first BigQuery MCP server with a dry-run budget gate and structured errors |
+| `brave-search` | Brave Search API (web, LLM context, answers) as a CLI and MCP server |
 | `chrome-pilot-mcp` | Zero-dependency Chrome automation MCP server (CDP direct) |
 | `claude-usage-lens` | Token usage and cost analyzer for Claude Code and Cowork logs |
 | `csv-to-json` | Fast CSV-to-JSON converter for shell pipelines |
