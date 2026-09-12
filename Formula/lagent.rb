@@ -1,8 +1,8 @@
 class Lagent < Formula
   desc "Sandboxed coding-agent runtime on a local LLM (LM Studio / Ollama)"
   homepage "https://github.com/nlink-jp/lagent"
-  url "https://github.com/nlink-jp/lagent/releases/download/v0.2.0/lagent-v0.2.0-darwin-arm64.zip"
-  sha256 "6f96373b2427a51680d5410c8b7a467c367b34a8e0adb1aa322a03994810e7ef"
+  url "https://github.com/nlink-jp/lagent/releases/download/v0.3.0/lagent-v0.3.0-darwin-arm64.zip"
+  sha256 "6378feb538b6d73e64650781c412307f7acca012942a322cba0969ba8c6353ec"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
