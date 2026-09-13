@@ -1,8 +1,8 @@
 class PcapAnalyzerMcp < Formula
   desc "MCP server for pcap/pcapng analysis via a containerized, version-pinned tshark"
   homepage "https://github.com/nlink-jp/pcap-analyzer-mcp"
-  url "https://github.com/nlink-jp/pcap-analyzer-mcp/releases/download/v0.2.0/pcap-analyzer-mcp-v0.2.0-darwin-arm64.zip"
-  sha256 "ab81fb132203098c25d8edf23ae6aace2af30e3f6ef2d012ba24688d07c6396e"
+  url "https://github.com/nlink-jp/pcap-analyzer-mcp/releases/download/v0.2.1/pcap-analyzer-mcp-v0.2.1-darwin-arm64.zip"
+  sha256 "3654b2612fe3c90ba6dd3837cba010ab2bccd71238bc797ea52c030ff84ae51e"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
