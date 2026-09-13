@@ -1,8 +1,8 @@
 class SplunkMcp < Formula
   desc "MCP server for Splunk search with exact result counts over the REST API"
   homepage "https://github.com/nlink-jp/splunk-mcp"
-  url "https://github.com/nlink-jp/splunk-mcp/releases/download/v0.1.0/splunk-mcp-v0.1.0-darwin-arm64.zip"
-  sha256 "24cff05d851e7b7faad3ab879d38c551a12dcfaa02d1d4452d904b863471c7de"
+  url "https://github.com/nlink-jp/splunk-mcp/releases/download/v0.2.0/splunk-mcp-v0.2.0-darwin-arm64.zip"
+  sha256 "2cd2573309434e1d49145fbf9d426a1d46b4731ce8f677d9f39623382bdea859"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
@@ -15,6 +15,11 @@ class SplunkMcp < Formula
     bin.install "splunk-mcp"
   end
 
+  # The tool MUST answer `--version`, not only a `version` subcommand: without
+  # the flag it exits non-zero, `shell_output` raises, and `brew test` fails —
+  # while `brew install` still succeeds, so the breakage only surfaces once the
+  # tool is in the tap. With cobra, `rootCmd.Version = Version` provides the
+  # flag; keep its output identical to the subcommand's and pin both in a test.
   test do
     assert_match version.to_s, shell_output("#{bin}/splunk-mcp --version")
   end
