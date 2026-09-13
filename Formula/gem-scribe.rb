@@ -1,8 +1,8 @@
 class GemScribe < Formula
   desc "Cloud speech-to-text CLI and MCP server on Vertex AI Gemini"
   homepage "https://github.com/nlink-jp/gem-scribe"
-  url "https://github.com/nlink-jp/gem-scribe/releases/download/v0.4.2/gem-scribe-v0.4.2-darwin-arm64.zip"
-  sha256 "69d22f5382bf9ee9da6dbdce9d85a387b1705730f336000f6d9b582dc27c4d69"
+  url "https://github.com/nlink-jp/gem-scribe/releases/download/v0.4.3/gem-scribe-v0.4.3-darwin-arm64.zip"
+  sha256 "4271aa30139b5b94244e8dc01490a7a3e7953db789ad2290d8cdb826e32939fb"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
