@@ -1,8 +1,8 @@
 class VoiceStudioMcp < Formula
   desc "Multi-speaker Japanese speech-synthesis MCP server"
   homepage "https://github.com/nlink-jp/voice-studio-mcp"
-  url "https://github.com/nlink-jp/voice-studio-mcp/releases/download/v0.5.0/voice-studio-mcp-v0.5.0-darwin-arm64.zip"
-  sha256 "4248ed13a06544aec9a23388be925c5de9c5bfcdfacf1f6ea6be32e5d3735070"
+  url "https://github.com/nlink-jp/voice-studio-mcp/releases/download/v0.5.1/voice-studio-mcp-v0.5.1-darwin-arm64.zip"
+  sha256 "6562cc85d60fb9a4f5845417feb1b840612dab9234d3abd98432ef3ef0e9cc53"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
