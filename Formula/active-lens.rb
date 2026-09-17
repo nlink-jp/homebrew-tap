@@ -1,8 +1,8 @@
 class ActiveLens < Formula
   desc "Content-free activity tracker recording when you work, not what"
   homepage "https://github.com/nlink-jp/active-lens"
-  url "https://github.com/nlink-jp/active-lens/releases/download/v0.2.1/active-lens-v0.2.1-darwin-arm64.zip"
-  sha256 "7d19d34bf4219c04a4cd0b4b36d4013d2767d2e5434cd8f5c0a6f49417baaf45"
+  url "https://github.com/nlink-jp/active-lens/releases/download/v0.3.0/active-lens-v0.3.0-darwin-arm64.zip"
+  sha256 "924d868d135dd84a50de8e2c7d448444bfae4c080ef0f8af6e06ec884403b5b7"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
@@ -15,6 +15,11 @@ class ActiveLens < Formula
     bin.install "active-lens"
   end
 
+  # The tool MUST answer `--version`, not only a `version` subcommand: without
+  # the flag it exits non-zero, `shell_output` raises, and `brew test` fails —
+  # while `brew install` still succeeds, so the breakage only surfaces once the
+  # tool is in the tap. With cobra, `rootCmd.Version = Version` provides the
+  # flag; keep its output identical to the subcommand's and pin both in a test.
   test do
     assert_match version.to_s, shell_output("#{bin}/active-lens --version")
   end
