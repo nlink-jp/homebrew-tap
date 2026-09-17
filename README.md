@@ -90,7 +90,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `webhook-relay` | Authenticated webhook receiver that writes payloads to GCS |
 | `whois-lookup` | Look up domain/IP/ASN registration data via RDAP with WHOIS fallback |
 
-## Casks (GUI) — 18
+## Casks (GUI) — 19
 
 | Cask | Description |
 |------|-------------|
@@ -108,6 +108,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `sensor-lens-gui` | Menu-bar readout of your SwitchBot temperature, humidity and CO2 |
 | `share-mounter` | Menu-bar app that auto-mounts SMB shares at login, window-free |
 | `shell-agent-v2` | Local-first chat and agent tool with interactive data analysis |
+| `spice-client` | Native SPICE client for QEMU and Ravada virtual desktops |
 | `status-lens` | Menu-bar service status watcher for Statuspage-hosted pages |
 | `task-clock-gui` | Menu-bar front end for the task-clock scheduler |
 | `url-shelf` | Menu-bar shelf of URL notes kept as .webloc files, with private-window opening |
