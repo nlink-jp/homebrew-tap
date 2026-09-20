@@ -1,6 +1,6 @@
 cask "menubar-spacer" do
-  version "0.1.0"
-  sha256 "b39ab9515c9b8d78f0097c2afdb7103f7a6d447c23a167416229ac6495952d08"
+  version "0.1.1"
+  sha256 "262a93ab7375037565a3fa4a6abc41424597fb7b175a934e0952649a5663e709"
 
   url "https://github.com/nlink-jp/menubar-spacer/releases/download/v#{version}/menubar-spacer-v#{version}-darwin-arm64.zip"
   name "menubar-spacer"
