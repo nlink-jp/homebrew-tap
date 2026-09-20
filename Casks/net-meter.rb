@@ -1,6 +1,6 @@
 cask "net-meter" do
-  version "0.1.0"
-  sha256 "25b02acd0ad2614472752a5b46908ca0c488b6f69792ba2f329f4b800cd3379f"
+  version "0.1.1"
+  sha256 "3fb929e6013a370cb36f17a78f2b59008e8ddb300fbc48284a5982e5063ce1e6"
 
   url "https://github.com/nlink-jp/net-meter/releases/download/v#{version}/net-meter-v#{version}-darwin-arm64.zip"
   name "net-meter"
