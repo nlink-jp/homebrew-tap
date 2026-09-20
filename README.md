@@ -15,7 +15,7 @@ brew install nlink-jp/tap/<name>          # CLI tools (formulae)
 brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 ```
 
-## Formulae (CLI) — 70
+## Formulae (CLI) — 71
 
 | Formula | Description |
 |---------|-------------|
@@ -30,6 +30,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `chrome-pilot-mcp` | Zero-dependency Chrome automation MCP server (CDP direct) |
 | `claude-usage-lens` | Token usage and cost analyzer for Claude Code and Cowork logs |
 | `csv-to-json` | Fast CSV-to-JSON converter for shell pipelines |
+| `cve-lookup` | Context for a CVE: CVSS, KEV, EPSS, SSVC and internet exposure |
 | `data-analyzer` | Large-scale JSON/JSONL analysis CLI using local LLMs |
 | `data-toolbox-mcp` | MCP server for DuckDB analysis and sandboxed Python execution |
 | `doh-lookup` | Collect a domain's DNS records over DoH (out-of-band, distinguishable) |
