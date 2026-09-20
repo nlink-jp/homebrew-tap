@@ -9,7 +9,7 @@ cask "load-spinner" do
 
   # Developer ID signed + Apple-notarized + stapled .app (Apple Silicon only).
   depends_on arch: :arm64
-  depends_on macos: :big_sur
+  depends_on macos: :ventura
 
   app "load-spinner.app"
 
