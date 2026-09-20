@@ -1,8 +1,8 @@
 class IcloudRelayLookup < Formula
   desc "Check whether an IP address is an iCloud Private Relay egress IP (offline)"
   homepage "https://github.com/nlink-jp/icloud-relay-lookup"
-  url "https://github.com/nlink-jp/icloud-relay-lookup/releases/download/v0.1.0/icloud-relay-lookup-v0.1.0-darwin-arm64.zip"
-  sha256 "ca2bb5a4522958d66478c397eb4894d1ee550380632dd4cbcc813aa71321d70a"
+  url "https://github.com/nlink-jp/icloud-relay-lookup/releases/download/v0.1.1/icloud-relay-lookup-v0.1.1-darwin-arm64.zip"
+  sha256 "2f183531504a6ca9c806745b23d328607749be0f82697c913a31d421b6293db0"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
@@ -15,6 +15,11 @@ class IcloudRelayLookup < Formula
     bin.install "icloud-relay-lookup"
   end
 
+  # The tool MUST answer `--version`, not only a `version` subcommand: without
+  # the flag it exits non-zero, `shell_output` raises, and `brew test` fails —
+  # while `brew install` still succeeds, so the breakage only surfaces once the
+  # tool is in the tap. With cobra, `rootCmd.Version = Version` provides the
+  # flag; keep its output identical to the subcommand's and pin both in a test.
   test do
     assert_match version.to_s, shell_output("#{bin}/icloud-relay-lookup --version")
   end
