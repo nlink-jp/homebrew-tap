@@ -103,6 +103,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `instant-translate` | Lightweight menu-bar translator using macOS on-device Translation |
 | `load-spinner` | Menu-bar CPU/GPU load indicator that spins with system load |
 | `mail-analyzer-gui` | Drag-and-drop desktop app for suspicious email analysis |
+| `net-meter` | Menu-bar meter for one network interface: up/down rate as numbers and a graph |
 | `nvme-lens` | Menu-bar monitor for NVMe SSD temperature and endurance |
 | `quick-translate` | Menu-bar translation tool powered by a local LLM |
 | `sensor-lens-gui` | Menu-bar readout of your SwitchBot temperature, humidity and CO2 |
