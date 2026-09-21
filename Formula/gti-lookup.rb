@@ -1,8 +1,8 @@
 class GtiLookup < Formula
   desc "Curated threat-actor context for an indicator, from Google Threat Intelligence"
   homepage "https://github.com/nlink-jp/gti-lookup"
-  url "https://github.com/nlink-jp/gti-lookup/releases/download/v0.1.1/gti-lookup-v0.1.1-darwin-arm64.zip"
-  sha256 "9ff1a55faadc76ec73b28c3f5b0328f7c4f3e73dc2efbcd8a586233803b7efb7"
+  url "https://github.com/nlink-jp/gti-lookup/releases/download/v0.1.2/gti-lookup-v0.1.2-darwin-arm64.zip"
+  sha256 "16bef575c930fc392f283a0bf1f199e49560f834c05f9cd52458fefcf31be584"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
