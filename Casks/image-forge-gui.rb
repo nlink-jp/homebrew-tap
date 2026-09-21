@@ -1,6 +1,6 @@
 cask "image-forge-gui" do
-  version "0.11.0"
-  sha256 "48eb5cf099580dbccb6a47cca92ecd30c4ee0877f1add30eb821928da12d4a49"
+  version "0.11.1"
+  sha256 "599d09fef50e926fd42d28870a5e995110c00a42977345a72b16ac787dda75ab"
 
   url "https://github.com/nlink-jp/image-forge-gui/releases/download/v#{version}/image-forge-gui-v#{version}-darwin-arm64.zip"
   name "image-forge-gui"
