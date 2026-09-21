@@ -1,8 +1,8 @@
 class UrlscanLookup < Formula
   desc "Investigate a suspicious URL via the urlscan.io API (CLI + MCP)"
   homepage "https://github.com/nlink-jp/urlscan-lookup"
-  url "https://github.com/nlink-jp/urlscan-lookup/releases/download/v0.4.0/urlscan-lookup-v0.4.0-darwin-arm64.zip"
-  sha256 "2a502fca3f99212bdeb6891af6d24e7e58f14267b979a4bb9953694df7bd255e"
+  url "https://github.com/nlink-jp/urlscan-lookup/releases/download/v0.4.1/urlscan-lookup-v0.4.1-darwin-arm64.zip"
+  sha256 "b6e0848863f04812b2762909679235762c4054a3636db161f53752000aa2e348"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
