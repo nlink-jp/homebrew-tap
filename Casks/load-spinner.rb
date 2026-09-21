@@ -1,6 +1,6 @@
 cask "load-spinner" do
-  version "0.5.3"
-  sha256 "112e870af898fc53fa13b0f695906d1a11344796bcb3eb82b30b27a8a6a83ce5"
+  version "0.5.4"
+  sha256 "cd9fba4fa043f20d688b88a5ab003a163946740ed92aa176fdbb74e91f5f88e2"
 
   url "https://github.com/nlink-jp/load-spinner/releases/download/v#{version}/load-spinner-v#{version}-darwin-arm64.zip"
   name "load-spinner"
