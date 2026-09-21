@@ -1,8 +1,8 @@
 class SplunkMcp < Formula
   desc "MCP server for Splunk search with exact result counts over the REST API"
   homepage "https://github.com/nlink-jp/splunk-mcp"
-  url "https://github.com/nlink-jp/splunk-mcp/releases/download/v0.2.2/splunk-mcp-v0.2.2-darwin-arm64.zip"
-  sha256 "9d9674dc03e5b272695e0c68f5e1d79783714fc83887b81b19981eefe996dded"
+  url "https://github.com/nlink-jp/splunk-mcp/releases/download/v0.3.0/splunk-mcp-v0.3.0-darwin-arm64.zip"
+  sha256 "fb3f0537e5404940fcb4ea84a30a0f128ca0b4c9083edf061f6af0b58091941c"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
