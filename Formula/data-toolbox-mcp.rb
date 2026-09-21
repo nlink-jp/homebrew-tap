@@ -1,8 +1,8 @@
 class DataToolboxMcp < Formula
   desc "MCP server for DuckDB analysis and sandboxed Python execution"
   homepage "https://github.com/nlink-jp/data-toolbox-mcp"
-  url "https://github.com/nlink-jp/data-toolbox-mcp/releases/download/v0.6.5/data-toolbox-mcp-v0.6.5-darwin-arm64.zip"
-  sha256 "3d09085c3fb55cceb47c166386e6c8475110c4ae6cc534679afeec3030dca827"
+  url "https://github.com/nlink-jp/data-toolbox-mcp/releases/download/v0.7.0/data-toolbox-mcp-v0.7.0-darwin-arm64.zip"
+  sha256 "fe75c394f52f1cb4930825bb012fa3b641b58691a3f7a62d1aede19e3a537179"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
