@@ -1,6 +1,6 @@
 cask "claude-usage-lens-gui" do
-  version "0.3.2"
-  sha256 "5c818407a1cd754542e206272c893971c87f413d4781d00650c09d5bcd256b9c"
+  version "0.3.3"
+  sha256 "c5b64fe642268bb18811d5ebc1e17bc3424d3d9ffa2143a3ed8f158a2aa473dc"
 
   url "https://github.com/nlink-jp/claude-usage-lens-gui/releases/download/v#{version}/claude-usage-lens-gui-v#{version}-darwin-arm64.zip"
   name "claude-usage-lens-gui"
