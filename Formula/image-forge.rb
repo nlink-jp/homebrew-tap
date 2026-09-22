@@ -1,8 +1,8 @@
 class ImageForge < Formula
   desc "Local diffusion image-generation engine and model manager"
   homepage "https://github.com/nlink-jp/image-forge"
-  url "https://github.com/nlink-jp/image-forge/releases/download/v0.28.0/image-forge-v0.28.0-darwin-arm64.zip"
-  sha256 "7c2464ae6b936501447c983e4e3c297273a496e9788b9866f577ef51271bba87"
+  url "https://github.com/nlink-jp/image-forge/releases/download/v0.29.0/image-forge-v0.29.0-darwin-arm64.zip"
+  sha256 "8775aa4265a267b608e14d19b98e54fec87b8d4578f3d066a11b00c581fbd5e0"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
