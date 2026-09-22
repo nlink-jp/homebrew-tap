@@ -1,8 +1,8 @@
 class Scat < Formula
-  desc "Send content to Slack and other services from your terminal"
+  desc "Slack CLI for services using bot credentials"
   homepage "https://github.com/nlink-jp/scat"
-  url "https://github.com/nlink-jp/scat/releases/download/v1.15.0/scat-v1.15.0-darwin-arm64.zip"
-  sha256 "887970b34a549af22fe12a2a475ecdf5a82de5d3a1fc2ab42947c756552ae657"
+  url "https://github.com/nlink-jp/scat/releases/download/v2.0.0/scat-v2.0.0-darwin-arm64.zip"
+  sha256 "6a148da3c3ef8c8f9b5798dd6f7eee29258d9a242a95bc60348c8a4cabbb8cbb"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
@@ -15,6 +15,11 @@ class Scat < Formula
     bin.install "scat"
   end
 
+  # The tool MUST answer `--version`, not only a `version` subcommand: without
+  # the flag it exits non-zero, `shell_output` raises, and `brew test` fails —
+  # while `brew install` still succeeds, so the breakage only surfaces once the
+  # tool is in the tap. With cobra, `rootCmd.Version = Version` provides the
+  # flag; keep its output identical to the subcommand's and pin both in a test.
   test do
     assert_match version.to_s, shell_output("#{bin}/scat --version")
   end

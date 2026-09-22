@@ -71,7 +71,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `pcap-analyzer-mcp` | pcap/pcapng analysis via a containerized, version-pinned tshark |
 | `rdns-lookup` | Look up an IP's domains, a domain's subdomains, and reverse CNAMEs |
 | `rex` | Extract and merge fields from text with regular expressions |
-| `scat` | Send content to Slack and other services from your terminal |
+| `scat` | Slack CLI for services using bot credentials |
 | `scli` | Terminal Slack client for channels, DMs, search, and unread |
 | `sdate` | Compute timestamps using Splunk-like relative time syntax |
 | `sensor-lens` | Collect SwitchBot temperature, humidity and CO2 into a local history |
