@@ -1,8 +1,8 @@
 class Swrite < Formula
   desc "Post messages and files to Slack from your terminal"
   homepage "https://github.com/nlink-jp/swrite"
-  url "https://github.com/nlink-jp/swrite/releases/download/v0.4.0/swrite-v0.4.0-darwin-arm64.zip"
-  sha256 "2bc5937e4e4d1218dd9c9d9bc843dc0054f78019f1dafe2057ec470ab47947fe"
+  url "https://github.com/nlink-jp/swrite/releases/download/v0.5.0/swrite-v0.5.0-darwin-arm64.zip"
+  sha256 "e277277bf03e612d702aa1466ff466a613f054b5e67230ea6f1574350ef12ca4"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
@@ -15,6 +15,11 @@ class Swrite < Formula
     bin.install "swrite"
   end
 
+  # The tool MUST answer `--version`, not only a `version` subcommand: without
+  # the flag it exits non-zero, `shell_output` raises, and `brew test` fails —
+  # while `brew install` still succeeds, so the breakage only surfaces once the
+  # tool is in the tap. With cobra, `rootCmd.Version = Version` provides the
+  # flag; keep its output identical to the subcommand's and pin both in a test.
   test do
     assert_match version.to_s, shell_output("#{bin}/swrite --version")
   end
