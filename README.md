@@ -75,6 +75,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `scli` | Terminal Slack client for channels, DMs, search, and unread |
 | `sdate` | Compute timestamps using Splunk-like relative time syntax |
 | `sensor-lens` | Collect SwitchBot temperature, humidity and CO2 into a local history |
+| `shodan-lookup` | What an IP exposes to the Internet, read from Shodan (read-only; your own API key) |
 | `slack-mcp-extender` | Transparent proxy for the official Slack MCP with file upload/download extension tools |
 | `slack-router` | Route Slack slash-commands with a cron-like approach |
 | `splunk-cli` | Run SPL queries and manage search jobs on Splunk |
