@@ -1,8 +1,8 @@
 class LiteRag < Formula
   desc "RAG CLI for Markdown documents using a local LLM"
   homepage "https://github.com/nlink-jp/lite-rag"
-  url "https://github.com/nlink-jp/lite-rag/releases/download/v0.3.1/lite-rag-v0.3.1-darwin-arm64.zip"
-  sha256 "36f856421943982f44f186de46c36069d29fd9c03b32f03d697d78a852a9dbff"
+  url "https://github.com/nlink-jp/lite-rag/releases/download/v0.4.0/lite-rag-v0.4.0-darwin-arm64.zip"
+  sha256 "5f68bb59d7846d470f2a25bdf86023fca9fe79779951b48d4b7b77c3a60c1c74"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
@@ -15,6 +15,11 @@ class LiteRag < Formula
     bin.install "lite-rag"
   end
 
+  # The tool MUST answer `--version`, not only a `version` subcommand: without
+  # the flag it exits non-zero, `shell_output` raises, and `brew test` fails —
+  # while `brew install` still succeeds, so the breakage only surfaces once the
+  # tool is in the tap. With cobra, `rootCmd.Version = Version` provides the
+  # flag; keep its output identical to the subcommand's and pin both in a test.
   test do
     assert_match version.to_s, shell_output("#{bin}/lite-rag --version")
   end
