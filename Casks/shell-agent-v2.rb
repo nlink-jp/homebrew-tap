@@ -1,6 +1,6 @@
 cask "shell-agent-v2" do
-  version "0.18.0"
-  sha256 "30557dfd2712a8d024e77ef25c290d32f300dc6b3d002e47d9456753de35ffe9"
+  version "0.18.1"
+  sha256 "95be51e626c25f426e83a1e2a3cd0e903730f8096a0354b3e2ccea995e0a1e50"
 
   url "https://github.com/nlink-jp/shell-agent-v2/releases/download/v#{version}/shell-agent-v2-v#{version}-darwin-arm64.zip"
   name "shell-agent-v2"
