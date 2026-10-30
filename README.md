@@ -15,13 +15,14 @@ brew install nlink-jp/tap/<name>          # CLI tools (formulae)
 brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 ```
 
-## Formulae (CLI) — 71
+## Formulae (CLI) — 72
 
 | Formula | Description |
 |---------|-------------|
 | `abuse-lookup` | Check IP address reputation against the AbuseIPDB API |
 | `active-lens` | Content-free activity tracker recording when you work, not what |
 | `agent-board` | Machine-local shared knowledge board for concurrent AI agent sessions (CLI + hooks + MCP) |
+| `agent-report` | Usage summary of gem-agent and lagent sessions to attach to a report |
 | `ask-gemini-mcp` | MCP server exposing ask_gemini(prompt) backed by Vertex AI Gemini |
 | `ask-llm-mcp` | MCP server exposing ask_llm(prompt) for OpenAI-compatible endpoints |
 | `asn-lookup` | Local IP-to-ASN and ASN-to-prefix lookups from the IPinfo Lite database |
