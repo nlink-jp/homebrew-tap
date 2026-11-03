@@ -1,8 +1,8 @@
 class AgentReport < Formula
   desc "Usage summary of gem-agent and lagent sessions to attach to a report"
   homepage "https://github.com/nlink-jp/agent-report"
-  url "https://github.com/nlink-jp/agent-report/releases/download/v0.1.0/agent-report-v0.1.0-darwin-arm64.zip"
-  sha256 "a3ac08a677e203b98eac82f5c350a77d2d79cf595729dc60c9f6e80e3ca5aff0"
+  url "https://github.com/nlink-jp/agent-report/releases/download/v0.2.0/agent-report-v0.2.0-darwin-arm64.zip"
+  sha256 "b168308bf006cf5171839d06c0e646ac9dadfcea1841d5123e1b9dc869d51492"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
