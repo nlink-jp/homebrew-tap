@@ -1,8 +1,8 @@
 class ReportStudioMcp < Formula
   desc "MCP server that typesets Markdown reports into PDF and Word documents"
   homepage "https://github.com/nlink-jp/report-studio-mcp"
-  url "https://github.com/nlink-jp/report-studio-mcp/releases/download/v0.1.0/report-studio-mcp-v0.1.0-darwin-arm64.zip"
-  sha256 "5379a9c6ee9ed8ae93aab67e8894647f821a94ed156c4794f067e7fad702c394"
+  url "https://github.com/nlink-jp/report-studio-mcp/releases/download/v0.1.1/report-studio-mcp-v0.1.1-darwin-arm64.zip"
+  sha256 "e635c1a8d6a1ccd98795cc9054680c6b3a45efdab73ccb30e66661ff40b25203"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
