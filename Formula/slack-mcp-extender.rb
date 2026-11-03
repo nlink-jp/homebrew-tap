@@ -1,8 +1,8 @@
 class SlackMcpExtender < Formula
   desc "Transparent proxy for the official Slack MCP with file-attachment upload tools"
   homepage "https://github.com/nlink-jp/slack-mcp-extender"
-  url "https://github.com/nlink-jp/slack-mcp-extender/releases/download/v0.5.1/slack-mcp-extender-v0.5.1-darwin-arm64.zip"
-  sha256 "6ca40c643cb4c0c3f291beb70116e6dcb12b5245ef4234fdb71535f8685dbfb7"
+  url "https://github.com/nlink-jp/slack-mcp-extender/releases/download/v0.5.2/slack-mcp-extender-v0.5.2-darwin-arm64.zip"
+  sha256 "086961fb5b115b32c88240c5fc76fdf12117ab1df308445bdb7412a539be6ae5"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
