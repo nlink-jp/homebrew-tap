@@ -1,8 +1,8 @@
 class ChromePilotMcp < Formula
   desc "Chrome automation MCP server with no third-party dependencies (CDP direct)"
   homepage "https://github.com/nlink-jp/chrome-pilot-mcp"
-  url "https://github.com/nlink-jp/chrome-pilot-mcp/releases/download/v0.10.1/chrome-pilot-mcp-v0.10.1-darwin-arm64.zip"
-  sha256 "aa2d5c505f3b4a5bd303952a01c6d26b01b1d8b28a4c118edf6f910a7e743b06"
+  url "https://github.com/nlink-jp/chrome-pilot-mcp/releases/download/v0.10.2/chrome-pilot-mcp-v0.10.2-darwin-arm64.zip"
+  sha256 "2b6eb818137d8d5cfa66b841cde45d268486aea9693a3f0d4267a622b7b75d64"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
