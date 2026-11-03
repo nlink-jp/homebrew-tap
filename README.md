@@ -15,7 +15,7 @@ brew install nlink-jp/tap/<name>          # CLI tools (formulae)
 brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 ```
 
-## Formulae (CLI) — 72
+## Formulae (CLI) — 74
 
 | Formula | Description |
 |---------|-------------|
@@ -71,6 +71,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `otx-lookup` | Campaign context for an indicator, from OTX community pulses |
 | `pcap-analyzer-mcp` | pcap/pcapng analysis via a containerized, version-pinned tshark |
 | `rdns-lookup` | Look up an IP's domains, a domain's subdomains, and reverse CNAMEs |
+| `report-studio-mcp` | MCP server that typesets Markdown reports into PDF and Word documents |
 | `rex` | Extract and merge fields from text with regular expressions |
 | `scat` | Slack CLI for services using bot credentials |
 | `scli` | Terminal Slack client for channels, DMs, search, and unread |
