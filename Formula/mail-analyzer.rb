@@ -1,8 +1,8 @@
 class MailAnalyzer < Formula
   desc "Suspicious-email analyzer combining rule indicators and Gemini"
   homepage "https://github.com/nlink-jp/mail-analyzer"
-  url "https://github.com/nlink-jp/mail-analyzer/releases/download/v0.3.0/mail-analyzer-v0.3.0-darwin-arm64.zip"
-  sha256 "03cd1b328626532ba673bd7597e2069044058fe57002659853ff2ca8626c497c"
+  url "https://github.com/nlink-jp/mail-analyzer/releases/download/v0.4.0/mail-analyzer-v0.4.0-darwin-arm64.zip"
+  sha256 "5a53e4f832ff5d23412f62a3cb75d53898c16d54b803d7ccf3cdabde96f286ea"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
