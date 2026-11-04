@@ -1,8 +1,8 @@
 class TaskClock < Formula
   desc "Resident macOS scheduler that does not trust launchd timing"
   homepage "https://github.com/nlink-jp/task-clock"
-  url "https://github.com/nlink-jp/task-clock/releases/download/v0.4.0/task-clock-v0.4.0-darwin-arm64.zip"
-  sha256 "ead2a52c76b0fb83edeeefc1e330e89f75d6c4527ade4627aff15f7297d24263"
+  url "https://github.com/nlink-jp/task-clock/releases/download/v0.4.1/task-clock-v0.4.1-darwin-arm64.zip"
+  sha256 "8d125642b542c8027d3f7c0d62fde642e9059a3f996c0e216bf1732885b750f9"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
