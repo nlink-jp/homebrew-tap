@@ -1,6 +1,6 @@
 cask "task-clock-gui" do
-  version "0.5.1"
-  sha256 "833ce4dc97ee741f6c7e2e6ac94ea390128beae72bf5e0e7152a1abb3cfdbb51"
+  version "0.5.2"
+  sha256 "050345bdc3ffc7963f6054ee64934155d9d3283ec81508da323a45771bc1b19e"
 
   url "https://github.com/nlink-jp/task-clock-gui/releases/download/v#{version}/task-clock-gui-v#{version}-darwin-arm64.zip"
   name "task-clock-gui"
