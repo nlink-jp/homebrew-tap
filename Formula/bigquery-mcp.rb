@@ -1,8 +1,8 @@
 class BigqueryMcp < Formula
   desc "Protection-first BigQuery MCP server with a dry-run budget gate and structured errors"
   homepage "https://github.com/nlink-jp/bigquery-mcp"
-  url "https://github.com/nlink-jp/bigquery-mcp/releases/download/v0.1.1/bigquery-mcp-v0.1.1-darwin-arm64.zip"
-  sha256 "71d2edd53a7680d7c66e99fa651b99c202fb220894c62b86d54b04e700c6c261"
+  url "https://github.com/nlink-jp/bigquery-mcp/releases/download/v0.1.2/bigquery-mcp-v0.1.2-darwin-arm64.zip"
+  sha256 "c98f61383c28a8dc1b7b9f32190b33f18d2c667a3c2101c5fea2d15cc6821f53"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
