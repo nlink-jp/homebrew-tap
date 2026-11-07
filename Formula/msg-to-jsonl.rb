@@ -1,8 +1,8 @@
 class MsgToJsonl < Formula
   desc "Outlook MSG parser for shell pipelines, emitting JSONL"
   homepage "https://github.com/nlink-jp/msg-to-jsonl"
-  url "https://github.com/nlink-jp/msg-to-jsonl/releases/download/v0.6.0/msg-to-jsonl-v0.6.0-darwin-arm64.zip"
-  sha256 "b133829e9b32cc28f2197b2a5a343528db9e95bad674f9da58d45b4b9b265899"
+  url "https://github.com/nlink-jp/msg-to-jsonl/releases/download/v0.6.1/msg-to-jsonl-v0.6.1-darwin-arm64.zip"
+  sha256 "6b52a4feb4500cda2224a3782f34e9a68af8f2e238b2e308655b54ac6d9389a9"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
