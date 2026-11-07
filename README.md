@@ -15,7 +15,7 @@ brew install nlink-jp/tap/<name>          # CLI tools (formulae)
 brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 ```
 
-## Formulae (CLI) — 74
+## Formulae (CLI) — 75
 
 | Formula | Description |
 |---------|-------------|
@@ -90,6 +90,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `video-studio-mcp` | MCP server compositing page images and audio into a narrated MP4 |
 | `voice-scribe` | Local speech-to-text engine and MCP server |
 | `voice-studio-mcp` | Multi-speaker Japanese speech-synthesis MCP server |
+| `vpn-lookup` | Tell whether an IP is a VPN, proxy, Tor, relay or hosting egress, and whose |
 | `web-fetch` | Fetch one URL's readable text from this machine, as a CLI and MCP server |
 | `webhook-relay` | Authenticated webhook receiver that writes payloads to GCS |
 | `whois-lookup` | Look up domain/IP/ASN registration data via RDAP with WHOIS fallback |
