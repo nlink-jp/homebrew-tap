@@ -28,6 +28,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `asn-lookup` | Local IP-to-ASN and ASN-to-prefix lookups from the IPinfo Lite database |
 | `bigquery-mcp` | Protection-first BigQuery MCP server with a dry-run budget gate and structured errors |
 | `brave-search` | Brave Search API (web, LLM context, answers) as a CLI and MCP server |
+| `cert-lookup` | Certificates issued for a domain from CT logs: issuer, SAN names, revocation (CLI + MCP) |
 | `chrome-pilot-mcp` | Zero-dependency Chrome automation MCP server (CDP direct) |
 | `claude-usage-lens` | Token usage and cost analyzer for Claude Code and Cowork logs |
 | `csv-to-json` | Fast CSV-to-JSON converter for shell pipelines |
