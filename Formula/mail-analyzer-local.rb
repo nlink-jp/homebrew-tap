@@ -1,8 +1,8 @@
 class MailAnalyzerLocal < Formula
   desc "Local-LLM email analyzer via an OpenAI-compatible API"
   homepage "https://github.com/nlink-jp/mail-analyzer-local"
-  url "https://github.com/nlink-jp/mail-analyzer-local/releases/download/v0.5.0/mail-analyzer-local-v0.5.0-darwin-arm64.zip"
-  sha256 "c67f49931a7065609449fa69ee82db79f84b82b924e763d00001d3244950dcfa"
+  url "https://github.com/nlink-jp/mail-analyzer-local/releases/download/v0.5.1/mail-analyzer-local-v0.5.1-darwin-arm64.zip"
+  sha256 "2a04a51463acd9fafdbddbdce7abae8c7c8263828240f99d465d6c1edf1d636e"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
