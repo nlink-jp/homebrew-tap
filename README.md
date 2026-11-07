@@ -15,7 +15,7 @@ brew install nlink-jp/tap/<name>          # CLI tools (formulae)
 brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 ```
 
-## Formulae (CLI) — 77
+## Formulae (CLI) — 79
 
 | Formula | Description |
 |---------|-------------|
@@ -28,8 +28,8 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `asn-lookup` | Local IP-to-ASN and ASN-to-prefix lookups from the IPinfo Lite database |
 | `bigquery-mcp` | Protection-first BigQuery MCP server with a dry-run budget gate and structured errors |
 | `brave-search` | Brave Search API (web, LLM context, answers) as a CLI and MCP server |
-| `cert-lookup` | Certificates issued for a domain from CT logs: issuer, SAN names, revocation (CLI + MCP) |
-| `chrome-pilot-mcp` | Zero-dependency Chrome automation MCP server (CDP direct) |
+| `cert-lookup` | Certificates issued for a domain: issuer, SAN names, revocation, from CT logs |
+| `chrome-pilot-mcp` | Chrome automation MCP server with no third-party dependencies (CDP direct) |
 | `claude-usage-lens` | Token usage and cost analyzer for Claude Code and Cowork logs |
 | `csv-to-json` | Fast CSV-to-JSON converter for shell pipelines |
 | `cve-lookup` | Context for a CVE: CVSS, KEV, EPSS, SSVC and internet exposure |
@@ -45,7 +45,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `gem-search` | Agentic web search CLI using Vertex AI Grounding |
 | `gem-summary` | Single-call Vertex AI Gemini text summarizer |
 | `gem-usage-lens` | Token usage and cost analyzer for gem-agent session logs (Vertex AI Gemini) |
-| `gti-lookup` | Threat context from Google Threat Intelligence (Standard tier, commercial licence required) |
+| `gti-lookup` | Curated threat-actor context for an indicator, from Google Threat Intelligence |
 | `icloud-relay-lookup` | Check whether an IP address is an iCloud Private Relay egress IP (offline) |
 | `image-forge` | Local diffusion image-generation engine and model manager |
 | `ir-hub` | Incident-response lifecycle hub as a Slack ChatOps bot |
@@ -60,7 +60,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `lite-switch` | Natural-language classifier for shell pipelines |
 | `llm-cli` | CLI client for local LLMs via an OpenAI-compatible API |
 | `lookup` | Enrich JSON/JSONL streams by looking up values from tables |
-| `mac-lookup` | Resolves a MAC address or BSSID to its manufacturer, offline |
+| `mac-lookup` | Resolve a MAC address or BSSID to its vendor and address type (offline) |
 | `mail-analyzer` | Suspicious-email analyzer combining rule indicators and Gemini |
 | `mail-analyzer-local` | Local-LLM email analyzer via an OpenAI-compatible API |
 | `malware-lookup` | Check file hashes against known-good and known-malware databases |
@@ -70,8 +70,9 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `mdv` | Secure single-binary Markdown viewer and file browser |
 | `mermaid-to-png` | Turn a mermaid diagram into a PNG, with no browser |
 | `msg-to-jsonl` | Outlook MSG parser for shell pipelines, emitting JSONL |
+| `opencti-lookup` | Read-only threat-intelligence lookups against your OpenCTI instance |
 | `otx-lookup` | Campaign context for an indicator, from OTX community pulses |
-| `pcap-analyzer-mcp` | pcap/pcapng analysis via a containerized, version-pinned tshark |
+| `pcap-analyzer-mcp` | MCP server for pcap/pcapng analysis via a containerized, version-pinned tshark |
 | `rdns-lookup` | Look up an IP's domains, a domain's subdomains, and reverse CNAMEs |
 | `report-studio-mcp` | MCP server that typesets Markdown reports into PDF and Word documents |
 | `rex` | Extract and merge fields from text with regular expressions |
@@ -79,14 +80,15 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `scli` | Terminal Slack client for channels, DMs, search, and unread |
 | `sdate` | Compute timestamps using Splunk-like relative time syntax |
 | `sensor-lens` | Collect SwitchBot temperature, humidity and CO2 into a local history |
-| `shodan-lookup` | What an IP exposes to the Internet, read from Shodan (read-only; your own API key) |
-| `slack-mcp-extender` | Transparent proxy for the official Slack MCP with file upload/download extension tools |
+| `shodan-lookup` | What an IP exposes to the Internet, read from Shodan |
+| `slack-mcp-extender` | Transparent proxy for the official Slack MCP with file-attachment upload tools |
 | `slack-router` | Route Slack slash-commands with a cron-like approach |
 | `splunk-cli` | Run SPL queries and manage search jobs on Splunk |
 | `splunk-mcp` | MCP server for Splunk search with exact result counts over the REST API |
 | `stail` | Read-only Slack CLI that streams and exports messages like tail -f |
 | `swrite` | Post messages and files to Slack from your terminal |
 | `task-clock` | Resident macOS scheduler that does not trust launchd timing |
+| `timeout` | Run a command with a time limit (POSIX and GNU compatible) |
 | `tor-exit-lookup` | Check whether an IP address is a Tor Exit node (offline) |
 | `urlscan-lookup` | Investigate a suspicious URL via the urlscan.io API (CLI + MCP) |
 | `video-studio-mcp` | MCP server compositing page images and audio into a narrated MP4 |
@@ -97,7 +99,7 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `webhook-relay` | Authenticated webhook receiver that writes payloads to GCS |
 | `whois-lookup` | Look up domain/IP/ASN registration data via RDAP with WHOIS fallback |
 
-## Casks (GUI) — 19
+## Casks (GUI) — 22
 
 | Cask | Description |
 |------|-------------|
@@ -108,9 +110,11 @@ brew install --cask nlink-jp/tap/<name>   # GUI apps (casks)
 | `grid-edit` | Native macOS CSV/TSV editor with Japanese-encoding and delimiter auto-detection |
 | `image-forge-gui` | SwiftUI front-end for the image-forge local image generator |
 | `instant-translate` | Lightweight menu-bar translator using macOS on-device Translation |
-| `load-spinner` | Menu-bar CPU/GPU load indicator that spins with system load |
+| `load-spinner` | Menu-bar indicator that spins with CPU/GPU load, plus a memory gauge |
+| `m5-system-panel` | Menu-bar companion that shows CPU, GPU, memory and network on an M5Stack panel |
 | `mail-analyzer-gui` | Drag-and-drop desktop app for suspicious email analysis |
-| `net-meter` | Menu-bar meter for one network interface: up/down rate as numbers and a graph |
+| `menubar-spacer` | Adjust macOS menu bar icon spacing, with exact restore |
+| `net-meter` | Menu bar meter for one network interface: up/down rate as numbers and a graph |
 | `nvme-lens` | Menu-bar monitor for NVMe SSD temperature and endurance |
 | `quick-translate` | Menu-bar translation tool powered by a local LLM |
 | `sensor-lens-gui` | Menu-bar readout of your SwitchBot temperature, humidity and CO2 |
