@@ -1,8 +1,8 @@
 class McpBridge < Formula
   desc "Bridge stdio MCP clients to HTTP servers needing a pre-registered OAuth client"
   homepage "https://github.com/nlink-jp/mcp-bridge"
-  url "https://github.com/nlink-jp/mcp-bridge/releases/download/v0.1.1/mcp-bridge-v0.1.1-darwin-arm64.zip"
-  sha256 "4e723469efce32b4548717dc4786e5d501d837db95963f29951d054c36a7600d"
+  url "https://github.com/nlink-jp/mcp-bridge/releases/download/v0.2.0/mcp-bridge-v0.2.0-darwin-arm64.zip"
+  sha256 "4f4a497f2c98344f72f64567ed1e506cba019d554df1530bfe48bd977d633fac"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
