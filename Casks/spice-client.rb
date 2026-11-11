@@ -1,6 +1,6 @@
 cask "spice-client" do
-  version "0.2.2"
-  sha256 "3177e96f235c0a3085377cd955d0e93c1b2fb86886f226c7784256e979f5596f"
+  version "0.3.0"
+  sha256 "f313e41f2bbffde1466f50553203da2739b1cd6894ef061f9e5a2210de5d8aa6"
 
   url "https://github.com/nlink-jp/spice-client/releases/download/v#{version}/spice-client-v#{version}-darwin-arm64.zip"
   name "spice-client"
