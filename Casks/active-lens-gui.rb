@@ -1,6 +1,6 @@
 cask "active-lens-gui" do
-  version "0.6.0"
-  sha256 "616a41c5cd1561185ab028358f06700403aadce03764894933187e3c75b6ddbb"
+  version "0.6.1"
+  sha256 "55d604b81b7c247d238cbdd2409439508e8a6105539245cba2a845af60c58f92"
 
   url "https://github.com/nlink-jp/active-lens-gui/releases/download/v#{version}/active-lens-gui-v#{version}-darwin-arm64.zip"
   name "active-lens-gui"
