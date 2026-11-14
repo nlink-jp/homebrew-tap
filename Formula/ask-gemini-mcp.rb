@@ -1,8 +1,8 @@
 class AskGeminiMcp < Formula
   desc "MCP server exposing ask_gemini(prompt) backed by Vertex AI Gemini"
   homepage "https://github.com/nlink-jp/ask-gemini-mcp"
-  url "https://github.com/nlink-jp/ask-gemini-mcp/releases/download/v0.2.2/ask-gemini-mcp-v0.2.2-darwin-arm64.zip"
-  sha256 "b0feeb101ae84344a5c145fd8c7702fb98715f904b3457dcb87fca889e453e48"
+  url "https://github.com/nlink-jp/ask-gemini-mcp/releases/download/v0.2.3/ask-gemini-mcp-v0.2.3-darwin-arm64.zip"
+  sha256 "86cb9481dbd1f32f5a82c0015c5b7873100f23f025b45961e4c824175fd9353d"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
