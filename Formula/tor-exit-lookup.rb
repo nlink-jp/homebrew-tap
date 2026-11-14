@@ -1,8 +1,8 @@
 class TorExitLookup < Formula
   desc "Check whether an IP address is a Tor Exit node (offline)"
   homepage "https://github.com/nlink-jp/tor-exit-lookup"
-  url "https://github.com/nlink-jp/tor-exit-lookup/releases/download/v0.2.0/tor-exit-lookup-v0.2.0-darwin-arm64.zip"
-  sha256 "ef28fb5ea4ff736fb255ad091cac7f696fe1bfdcd88b4df33fb1291d4c70c554"
+  url "https://github.com/nlink-jp/tor-exit-lookup/releases/download/v0.2.1/tor-exit-lookup-v0.2.1-darwin-arm64.zip"
+  sha256 "0f2d5286df33231eb4aeb5d31cdba61128bff9187239f1e8d0efd9122e766209"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
