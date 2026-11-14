@@ -1,6 +1,6 @@
 cask "sensor-lens-gui" do
-  version "0.1.5"
-  sha256 "1349e464fee18f7052e955af6a872f73d237fe6e6557a1725ca72825436340a2"
+  version "0.1.6"
+  sha256 "833b40373e869d7f8e6230753bd2a14d20618318f937a69fb69afa27d393d0cf"
 
   url "https://github.com/nlink-jp/sensor-lens-gui/releases/download/v#{version}/sensor-lens-gui-v#{version}-darwin-arm64.zip"
   name "sensor-lens-gui"
