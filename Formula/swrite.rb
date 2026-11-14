@@ -1,8 +1,8 @@
 class Swrite < Formula
   desc "Post messages and files to Slack from your terminal"
   homepage "https://github.com/nlink-jp/swrite"
-  url "https://github.com/nlink-jp/swrite/releases/download/v0.5.0/swrite-v0.5.0-darwin-arm64.zip"
-  sha256 "e277277bf03e612d702aa1466ff466a613f054b5e67230ea6f1574350ef12ca4"
+  url "https://github.com/nlink-jp/swrite/releases/download/v0.5.1/swrite-v0.5.1-darwin-arm64.zip"
+  sha256 "b31ae251ee281a0ba94e77f178a1b778fa476290d47545c38e3ca8bedd47fe26"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
