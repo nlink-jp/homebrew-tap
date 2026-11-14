@@ -1,8 +1,8 @@
 class GemSearch < Formula
   desc "Agentic web search CLI using Vertex AI Grounding"
   homepage "https://github.com/nlink-jp/gem-search"
-  url "https://github.com/nlink-jp/gem-search/releases/download/v0.5.0/gem-search-v0.5.0-darwin-arm64.zip"
-  sha256 "40f15ea07d2c1c53af65b0f911bdc01fb5dac8052c625946b16b55d284095466"
+  url "https://github.com/nlink-jp/gem-search/releases/download/v0.5.1/gem-search-v0.5.1-darwin-arm64.zip"
+  sha256 "5cc6ad486fded78bea512ee7953925b5e9844ee495b13752689df17d574217ee"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
