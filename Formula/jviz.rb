@@ -1,8 +1,8 @@
 class Jviz < Formula
   desc "Visualize JSON data in the browser from your terminal"
   homepage "https://github.com/nlink-jp/jviz"
-  url "https://github.com/nlink-jp/jviz/releases/download/v1.2.1/jviz-v1.2.1-darwin-arm64.zip"
-  sha256 "b470dfe7edee60981dd8074db876b060c0d886aa0f51a919029e2a2f0908c4a7"
+  url "https://github.com/nlink-jp/jviz/releases/download/v1.2.2/jviz-v1.2.2-darwin-arm64.zip"
+  sha256 "ebf622043b4f793728d81ad10042cac42ef0da65cde3499f4641ef024b8cf5b2"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
