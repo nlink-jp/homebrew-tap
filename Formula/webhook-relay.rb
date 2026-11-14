@@ -1,8 +1,8 @@
 class WebhookRelay < Formula
   desc "Authenticated webhook receiver that writes payloads to GCS"
   homepage "https://github.com/nlink-jp/webhook-relay"
-  url "https://github.com/nlink-jp/webhook-relay/releases/download/v0.3.0/webhook-relay-v0.3.0-darwin-arm64.zip"
-  sha256 "7f1600c6622fad1b98e3f6ea19384330dd3e7cb45a1a73845d4ae9ca2934c9a1"
+  url "https://github.com/nlink-jp/webhook-relay/releases/download/v0.3.1/webhook-relay-v0.3.1-darwin-arm64.zip"
+  sha256 "57f76ef1f0117468195e2d43eea904b4b2ccd0dfe2a9fddc4609475ef090b9b3"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
