@@ -1,8 +1,8 @@
 class Sdate < Formula
   desc "Compute timestamps using Splunk-like relative time syntax"
   homepage "https://github.com/nlink-jp/sdate"
-  url "https://github.com/nlink-jp/sdate/releases/download/v1.2.0/sdate-v1.2.0-darwin-arm64.zip"
-  sha256 "69a5528684be5c9fbf4ada476b0400535b74749c0d5dcd120429fa936093f7c2"
+  url "https://github.com/nlink-jp/sdate/releases/download/v1.2.1/sdate-v1.2.1-darwin-arm64.zip"
+  sha256 "0b110107c55e445d3e02bdb6fde21d7e96eab391a5231328993267b5ea8f450d"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
@@ -15,6 +15,11 @@ class Sdate < Formula
     bin.install "sdate"
   end
 
+  # The tool MUST answer `--version`, not only a `version` subcommand: without
+  # the flag it exits non-zero, `shell_output` raises, and `brew test` fails —
+  # while `brew install` still succeeds, so the breakage only surfaces once the
+  # tool is in the tap. With cobra, `rootCmd.Version = Version` provides the
+  # flag; keep its output identical to the subcommand's and pin both in a test.
   test do
     assert_match version.to_s, shell_output("#{bin}/sdate --version")
   end
