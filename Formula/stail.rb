@@ -1,8 +1,8 @@
 class Stail < Formula
   desc "Read-only Slack CLI that streams and exports messages like tail -f"
   homepage "https://github.com/nlink-jp/stail"
-  url "https://github.com/nlink-jp/stail/releases/download/v0.6.0/stail-v0.6.0-darwin-arm64.zip"
-  sha256 "651e8d5eb8ee60f5e0a8a44e7fc0c9048593a390987ec128da7de5e578dd87aa"
+  url "https://github.com/nlink-jp/stail/releases/download/v0.6.1/stail-v0.6.1-darwin-arm64.zip"
+  sha256 "294c5e0afbc23bdb7911285e664f0b1a419ecde6e5bad4e0dab8821d9902130a"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
