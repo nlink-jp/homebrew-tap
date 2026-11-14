@@ -1,8 +1,8 @@
 class Lookup < Formula
   desc "Enrich JSON/JSONL streams by looking up values from tables"
   homepage "https://github.com/nlink-jp/lookup"
-  url "https://github.com/nlink-jp/lookup/releases/download/v2.1.0/lookup-v2.1.0-darwin-arm64.zip"
-  sha256 "a8b30212477da5d0aec074a39d53a118dc73d7404fdd69db6d34414c32587347"
+  url "https://github.com/nlink-jp/lookup/releases/download/v2.1.1/lookup-v2.1.1-darwin-arm64.zip"
+  sha256 "3eeac59be633de48f43e9facf2aa090d7b1b3a10454d7e092827233b5cf9ca61"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
@@ -15,6 +15,11 @@ class Lookup < Formula
     bin.install "lookup"
   end
 
+  # The tool MUST answer `--version`, not only a `version` subcommand: without
+  # the flag it exits non-zero, `shell_output` raises, and `brew test` fails —
+  # while `brew install` still succeeds, so the breakage only surfaces once the
+  # tool is in the tap. With cobra, `rootCmd.Version = Version` provides the
+  # flag; keep its output identical to the subcommand's and pin both in a test.
   test do
     assert_match version.to_s, shell_output("#{bin}/lookup --version")
   end
