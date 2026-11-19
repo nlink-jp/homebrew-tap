@@ -1,8 +1,8 @@
 class ActiveLens < Formula
   desc "Content-free activity tracker recording when you work, not what"
   homepage "https://github.com/nlink-jp/active-lens"
-  url "https://github.com/nlink-jp/active-lens/releases/download/v0.6.0/active-lens-v0.6.0-darwin-arm64.zip"
-  sha256 "b0e7434d6e4017053ab909ac56c580a516b1a9b6d6e3b0fce94f7c15d0f196ee"
+  url "https://github.com/nlink-jp/active-lens/releases/download/v0.7.0/active-lens-v0.7.0-darwin-arm64.zip"
+  sha256 "4a6112de00f227416f6f25e0eed958bd885a39b97fbfd77a6a1b9a4c2ecd6892"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
