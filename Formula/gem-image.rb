@@ -1,8 +1,8 @@
 class GemImage < Formula
   desc "Image generation and editing CLI using Vertex AI Gemini"
   homepage "https://github.com/nlink-jp/gem-image"
-  url "https://github.com/nlink-jp/gem-image/releases/download/v0.5.1/gem-image-v0.5.1-darwin-arm64.zip"
-  sha256 "94c6623f0f2b502cbb68cae2a0eb7929127ed7ff44571a91118c93458a4c12d1"
+  url "https://github.com/nlink-jp/gem-image/releases/download/v0.5.2/gem-image-v0.5.2-darwin-arm64.zip"
+  sha256 "1882f21b3de7cf23750a9d386bf6ec727a7152be6a7d60749fa6075adbe62243"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
