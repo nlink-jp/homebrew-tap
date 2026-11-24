@@ -1,8 +1,8 @@
 class GemQuery < Formula
   desc "Natural-language data analysis CLI for DuckDB and SQLite via Gemini"
   homepage "https://github.com/nlink-jp/gem-query"
-  url "https://github.com/nlink-jp/gem-query/releases/download/v0.6.1/gem-query-v0.6.1-darwin-arm64.zip"
-  sha256 "e298da9b374d162908777f4591b99e73e4dd8e7caaeea6192fd11a6b91e5cbb8"
+  url "https://github.com/nlink-jp/gem-query/releases/download/v0.6.3/gem-query-v0.6.3-darwin-arm64.zip"
+  sha256 "9deb08ada317d4b49eba07228e528aec0096ec765176ed40eaa563de19821bda"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
