@@ -1,8 +1,8 @@
 class LiteRag < Formula
   desc "RAG CLI for Markdown documents using a local LLM"
   homepage "https://github.com/nlink-jp/lite-rag"
-  url "https://github.com/nlink-jp/lite-rag/releases/download/v0.5.1/lite-rag-v0.5.1-darwin-arm64.zip"
-  sha256 "81a739544625d127b032fba0e87d29a33c691e1326870c8286fc2323c36ceb26"
+  url "https://github.com/nlink-jp/lite-rag/releases/download/v0.5.2/lite-rag-v0.5.2-darwin-arm64.zip"
+  sha256 "1d194d6dd2eb5d0a1df0ba99abe4c9a6bd3493bb21bfa4c507b63f73a41e010a"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
