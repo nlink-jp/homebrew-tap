@@ -1,8 +1,8 @@
 class GemSummary < Formula
   desc "Single-call Vertex AI Gemini text summarizer"
   homepage "https://github.com/nlink-jp/gem-summary"
-  url "https://github.com/nlink-jp/gem-summary/releases/download/v0.3.1/gem-summary-v0.3.1-darwin-arm64.zip"
-  sha256 "6d5564a4bfc0c07e3ece371ee37d7fc26af81855354cffb28e08f2ae6662f566"
+  url "https://github.com/nlink-jp/gem-summary/releases/download/v0.3.2/gem-summary-v0.3.2-darwin-arm64.zip"
+  sha256 "379b9f31feb2a84514cb4fad0488d42a7bfe1fc62cf2df1ca4d4b875e63fa5cf"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
