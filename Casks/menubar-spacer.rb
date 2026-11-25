@@ -1,6 +1,6 @@
 cask "menubar-spacer" do
-  version "0.1.2"
-  sha256 "75a0c5fbf9f58fa726bc7a7d06492b65144383a3846ffc3a77633fcc437c630f"
+  version "0.2.0"
+  sha256 "b22cf29e4406792813b15ceaf2a572e44e9af5bdd604c6c9560208b1416a20ab"
 
   url "https://github.com/nlink-jp/menubar-spacer/releases/download/v#{version}/menubar-spacer-v#{version}-darwin-arm64.zip"
   name "menubar-spacer"
@@ -9,7 +9,7 @@ cask "menubar-spacer" do
 
   # Developer ID signed + Apple-notarized + stapled .app (Apple Silicon only).
   depends_on arch: :arm64
-  depends_on macos: :golden_gate
+  depends_on macos: :tahoe
 
   app "MenubarSpacer.app"
 
