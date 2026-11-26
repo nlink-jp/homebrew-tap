@@ -1,8 +1,8 @@
 class VpnLookup < Formula
   desc "Tell whether an IP is a VPN, proxy, Tor, relay or hosting egress, and whose"
   homepage "https://github.com/nlink-jp/vpn-lookup"
-  url "https://github.com/nlink-jp/vpn-lookup/releases/download/v0.1.0/vpn-lookup-v0.1.0-darwin-arm64.zip"
-  sha256 "3d5a31a297c5c622648d10948fc83261c1fa538f2f9179d647ef5467d4d5180d"
+  url "https://github.com/nlink-jp/vpn-lookup/releases/download/v0.1.1/vpn-lookup-v0.1.1-darwin-arm64.zip"
+  sha256 "95d9043e4f471d5544390649174505489e8a9d72613999b6d18a540d7aed52c4"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
