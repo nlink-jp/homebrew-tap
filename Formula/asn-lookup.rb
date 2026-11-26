@@ -1,8 +1,8 @@
 class AsnLookup < Formula
   desc "Local IP-to-ASN and ASN-to-prefix lookups from the IPinfo Lite database"
   homepage "https://github.com/nlink-jp/asn-lookup"
-  url "https://github.com/nlink-jp/asn-lookup/releases/download/v0.3.1/asn-lookup-v0.3.1-darwin-arm64.zip"
-  sha256 "4db0f9539be6b3a7145bc80ce0d1a3caf9e76f4c9abd108ccf76a311511ab518"
+  url "https://github.com/nlink-jp/asn-lookup/releases/download/v0.3.2/asn-lookup-v0.3.2-darwin-arm64.zip"
+  sha256 "43a681b150cbc55e3d6e1c282b506c7094b72d389a04a292ed5e4cfb2e2659f1"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
