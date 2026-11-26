@@ -1,8 +1,8 @@
 class MacLookup < Formula
   desc "Resolve a MAC address or BSSID to its vendor and address type (offline)"
   homepage "https://github.com/nlink-jp/mac-lookup"
-  url "https://github.com/nlink-jp/mac-lookup/releases/download/v0.3.1/mac-lookup-v0.3.1-darwin-arm64.zip"
-  sha256 "f21545e513921d178aa838fcfd057efee27e850dffb96552c5e810f9f3a3644a"
+  url "https://github.com/nlink-jp/mac-lookup/releases/download/v0.3.2/mac-lookup-v0.3.2-darwin-arm64.zip"
+  sha256 "2875fd17544d19a40eb81c4c7d534916872748003e32baa6e22ca1b2193263ca"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
