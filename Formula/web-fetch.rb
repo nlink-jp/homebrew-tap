@@ -1,8 +1,8 @@
 class WebFetch < Formula
   desc "Fetch one URL's readable text from this machine, as a CLI and MCP server"
   homepage "https://github.com/nlink-jp/web-fetch"
-  url "https://github.com/nlink-jp/web-fetch/releases/download/v0.2.1/web-fetch-v0.2.1-darwin-arm64.zip"
-  sha256 "e7c41bcf57b8ad32b61490c688b851fe7e39b9cb0f842d938ef28159334bcafe"
+  url "https://github.com/nlink-jp/web-fetch/releases/download/v0.2.2/web-fetch-v0.2.2-darwin-arm64.zip"
+  sha256 "f8488b02a9d38420e790e648fe65252437b011aa139440d6a6c1a650c08fe9b3"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
