@@ -1,8 +1,8 @@
 class AbuseLookup < Formula
   desc "Check IP address reputation against the AbuseIPDB API"
   homepage "https://github.com/nlink-jp/abuse-lookup"
-  url "https://github.com/nlink-jp/abuse-lookup/releases/download/v0.3.2/abuse-lookup-v0.3.2-darwin-arm64.zip"
-  sha256 "74a6365270385e812b5664e2bed1209072bd791bde79181d2f46302f25b19300"
+  url "https://github.com/nlink-jp/abuse-lookup/releases/download/v0.4.0/abuse-lookup-v0.4.0-darwin-arm64.zip"
+  sha256 "0ea1b3eb5fcee1edaf4f0d58a5f38765c39752d527c71c05b5ceb5c15284805b"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
