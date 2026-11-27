@@ -1,8 +1,8 @@
 class IcloudRelayLookup < Formula
   desc "Check whether an IP address is an iCloud Private Relay egress IP (offline)"
   homepage "https://github.com/nlink-jp/icloud-relay-lookup"
-  url "https://github.com/nlink-jp/icloud-relay-lookup/releases/download/v0.2.2/icloud-relay-lookup-v0.2.2-darwin-arm64.zip"
-  sha256 "5f4ce2f85b9e2a0b4593b22822d81e5234eb0fd14ff824a565c5dd9882334793"
+  url "https://github.com/nlink-jp/icloud-relay-lookup/releases/download/v0.3.0/icloud-relay-lookup-v0.3.0-darwin-arm64.zip"
+  sha256 "b1ae8ec4b45c938c8e0c64c4cf65be3c158af1c98009e29ea7d74c5df5edccfb"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
