@@ -1,8 +1,8 @@
 class CertLookup < Formula
   desc "Certificates issued for a domain: issuer, SAN names, revocation, from CT logs"
   homepage "https://github.com/nlink-jp/cert-lookup"
-  url "https://github.com/nlink-jp/cert-lookup/releases/download/v0.1.1/cert-lookup-v0.1.1-darwin-arm64.zip"
-  sha256 "b5d243388ac950ed8411da9a2a912e6d7da54afefaf58f459f23ad18c06dae48"
+  url "https://github.com/nlink-jp/cert-lookup/releases/download/v0.2.0/cert-lookup-v0.2.0-darwin-arm64.zip"
+  sha256 "6273c718b82a8a377ea9314eeb89b66839e2e68d336da56d1e38d57b25b70cd8"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
