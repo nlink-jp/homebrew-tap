@@ -1,8 +1,8 @@
 class DohLookup < Formula
   desc "Collect a domain's DNS records over DoH (out-of-band, distinguishable)"
   homepage "https://github.com/nlink-jp/doh-lookup"
-  url "https://github.com/nlink-jp/doh-lookup/releases/download/v0.2.2/doh-lookup-v0.2.2-darwin-arm64.zip"
-  sha256 "629a22b79dd4c99c3a5708c0b7b9f2b6c24b5a8eae510e34dfc731e15985b0e7"
+  url "https://github.com/nlink-jp/doh-lookup/releases/download/v0.3.0/doh-lookup-v0.3.0-darwin-arm64.zip"
+  sha256 "a63132dc7239129d345e2964a6bd7e9549e019d1fabbe40e9e48373b2fd9c40a"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
