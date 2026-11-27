@@ -1,8 +1,8 @@
 class RdnsLookup < Formula
   desc "Look up an IP's domains, a domain's subdomains, and reverse CNAMEs"
   homepage "https://github.com/nlink-jp/rdns-lookup"
-  url "https://github.com/nlink-jp/rdns-lookup/releases/download/v0.3.2/rdns-lookup-v0.3.2-darwin-arm64.zip"
-  sha256 "e44b1d158f4eda6178b22b78f8b9f080d6ecdff3ff0f9325e5da0bd9b38b32f9"
+  url "https://github.com/nlink-jp/rdns-lookup/releases/download/v0.4.0/rdns-lookup-v0.4.0-darwin-arm64.zip"
+  sha256 "4f27ccf5f5d4bbd2f097efaeebb2a850be44264a39a1c07c156a3973da5fc20a"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
