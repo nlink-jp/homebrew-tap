@@ -1,8 +1,8 @@
 class AskLlmMcp < Formula
   desc "MCP server exposing ask_llm(prompt) for OpenAI-compatible endpoints"
   homepage "https://github.com/nlink-jp/ask-llm-mcp"
-  url "https://github.com/nlink-jp/ask-llm-mcp/releases/download/v0.2.2/ask-llm-mcp-v0.2.2-darwin-arm64.zip"
-  sha256 "083e9b5bceaaa6c41e78e6832c1882934ff5b838facd745c92cc6c1d2a4f3f25"
+  url "https://github.com/nlink-jp/ask-llm-mcp/releases/download/v0.3.0/ask-llm-mcp-v0.3.0-darwin-arm64.zip"
+  sha256 "0c4e39bc00c39a94a53f19d1e3916fded9537317dd5aecf39144fe796c4777cc"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
