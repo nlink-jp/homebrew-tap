@@ -1,8 +1,8 @@
 class OpenctiLookup < Formula
   desc "Read-only threat-intelligence lookups against your OpenCTI instance"
   homepage "https://github.com/nlink-jp/opencti-lookup"
-  url "https://github.com/nlink-jp/opencti-lookup/releases/download/v0.1.2/opencti-lookup-v0.1.2-darwin-arm64.zip"
-  sha256 "c8852bd05fe5f28ffa7108cf56a9a25fa7334f35561f6c1826cdad28270dd6d6"
+  url "https://github.com/nlink-jp/opencti-lookup/releases/download/v0.2.0/opencti-lookup-v0.2.0-darwin-arm64.zip"
+  sha256 "596baf66363d5a9d49efd63239678dc4e9b198350feed565bec654cfee029d00"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
