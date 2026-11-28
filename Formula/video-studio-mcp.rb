@@ -1,8 +1,8 @@
 class VideoStudioMcp < Formula
   desc "MCP server compositing page images and audio into a narrated MP4"
   homepage "https://github.com/nlink-jp/video-studio-mcp"
-  url "https://github.com/nlink-jp/video-studio-mcp/releases/download/v0.7.1/video-studio-mcp-v0.7.1-darwin-arm64.zip"
-  sha256 "83efeaae2e995c30af9d09203e18d1bbb94d8ae1ae4202e437540581db59b16b"
+  url "https://github.com/nlink-jp/video-studio-mcp/releases/download/v0.8.0/video-studio-mcp-v0.8.0-darwin-arm64.zip"
+  sha256 "c9854e3a419dc9e9d274073a08616f1e92d3c4f19f3d5822a9d3ce9807056cc8"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
