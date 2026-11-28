@@ -1,8 +1,8 @@
 class BraveSearch < Formula
   desc "Brave Search API (web, LLM context, answers) as a CLI and MCP server"
   homepage "https://github.com/nlink-jp/brave-search"
-  url "https://github.com/nlink-jp/brave-search/releases/download/v0.1.2/brave-search-v0.1.2-darwin-arm64.zip"
-  sha256 "cd50d265d2c120dafe74a9c2b0ae4c64d2cc21e83905d942447fc9b41aaf7e19"
+  url "https://github.com/nlink-jp/brave-search/releases/download/v0.2.0/brave-search-v0.2.0-darwin-arm64.zip"
+  sha256 "9b9a97e455fd9bb54b1d864be252909ed17a3a1454650ba9e649797c605fb175"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
