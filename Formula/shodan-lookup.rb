@@ -1,8 +1,8 @@
 class ShodanLookup < Formula
   desc "What an IP exposes to the Internet, read from Shodan"
   homepage "https://github.com/nlink-jp/shodan-lookup"
-  url "https://github.com/nlink-jp/shodan-lookup/releases/download/v0.2.1/shodan-lookup-v0.2.1-darwin-arm64.zip"
-  sha256 "85cc227d97eaadf044ed053e12da1b0824c4fdf406a394d60d69473b19dd2030"
+  url "https://github.com/nlink-jp/shodan-lookup/releases/download/v0.3.0/shodan-lookup-v0.3.0-darwin-arm64.zip"
+  sha256 "5c53e35b911f957769e0efe69653961cc998e5cd56566c5aa0b0f315cd974e89"
   license "MIT"
 
   # Prebuilt, Developer ID signed + Apple-notarized Apple Silicon binary.
